@@ -1,22 +1,3 @@
-!pip install open-clip-torch==2.23.0
-!pip install ftfy
-!python -m pip install --upgrade pip
-!pip install datasets==1.17.0
-!pip install nltk==3.5
-!pip install pandas==1.3.5
-!pip install timm==0.9.8
-!pip install Pillow==9.0.0
-!pip install scikit-learn==1.2.0
-!pip install torchvision==0.15.1
-!pip install torch==1.11.0
-!pip install transformers==4.37.2
-!pip install transformers[torch]
-!pip install mixture_of_experts
-
-
-# Commented out IPython magic to ensure Python compatibility.
-# %cd /content/onedrive/VQA
-
 import os
 from copy import deepcopy
 from dataclasses import dataclass
@@ -97,12 +78,6 @@ answer_space = list(set(train_answer + test_answer))
 answer_space = [str(element) for element in answer_space]
 answer_space.sort()
 
-print(f"Training\nDuplicate answers: {len(train_dup_ans)}, Unique answers: {len(train_answer)}\n")
-print(f"Testing\nDuplicate answers: {len(test_dup_ans)}, Unique answers: {len(test_answer)}\n")
-print(f"Final answer space: {len(answer_space)}\n")
-
-print(answer_space[:10])
-
 #Save files
 
 # with open(os.path.join("data_RAD", "answer_space.txt"), "w") as f:
@@ -114,8 +89,6 @@ test_dataset = test_dataset.loc[:, ["question", "answer", "image_id"]]
 # train_dataset.to_csv(os.path.join("data_RAD", "data_train.csv"), index=None)
 # test_dataset.to_csv(os.path.join("data_RAD", "data_eval.csv"), index=None)
 
-len(train_dataset)
-
 from datasets import load_dataset
 
 # Load the training & evaluation dataset present in CSV format
@@ -126,7 +99,6 @@ dataset = load_dataset(
         "test": os.path.join("data_RAD", "data_eval.csv")
     }
 )
-print(dataset)
 
 #Turn answers to labels
 dataset = dataset.map(
@@ -138,34 +110,6 @@ dataset = dataset.map(
     },
     batched=True
 )
-
-print(dataset["train"][10]["question"])
-
-label = dataset["train"][10]["label"]
-print(label)
-print(answer_space[label])
-
-"""# Samples visualization
-
-"""
-
-from IPython.display import display
-
-def showExample(train=True, id=None):
-    if train:
-        data = dataset["train"]
-    else:
-        data = dataset["test"]
-    if id == None:
-        id = np.random.randint(len(data))
-    image = Image.open(os.path.join("data_RAD", "images", data[id]["image_id"]))
-    display(image)
-
-    print("Question:\t", data[id]["question"])
-    print("Answer:\t\t", data[id]["answer"], "(Label: {0})".format(data[id]["label"]))
-    print("Image id: ", data[id]["image_id"])
-
-showExample(train = False)
 
 """# Tokenizer Initialization"""
 
@@ -928,7 +872,7 @@ args = TrainingArguments(
     per_device_train_batch_size=16,
     per_device_eval_batch_size=32,
     remove_unused_columns=False,
-    num_train_epochs=16,
+    num_train_epochs=50,
     fp16=True,
     dataloader_num_workers=2,
     load_best_model_at_end=True,
@@ -960,79 +904,3 @@ eval_multi_metrics = multi_trainer.evaluate()
 torch.cuda.memory_summary(device=None, abbreviated=False)
 
 torch.save(model.state_dict(), os.path.join(multi_args.output_dir, "pytorch_model.bin"))
-
-"""# Inference"""
-
-import transformers
-def loadAnswerSpace() -> List[str]:
-    with open(os.path.join("data_RAD", "answer_space.txt")) as f:
-        answer_space = f.read().splitlines()
-    return answer_space
-
-
-def tokenizeQuestion(text_encoder, question, device) -> Dict:
-    #text_encoder: text_encoder name, e.g, "bert-base-uncased"
-    tokenizer = transformers.AutoTokenizer.from_pretrained(text_encoder)
-    encoded_text = tokenizer(
-        text=[question],
-        padding='longest',
-        max_length=30,
-        truncation=True,
-        return_tensors='pt',
-        return_token_type_ids=True,
-        return_attention_mask=True,
-    )
-    return {
-        "input_ids": encoded_text['input_ids'].to(device),
-        "token_type_ids": encoded_text['token_type_ids'].to(device),
-        "attention_mask": encoded_text['attention_mask'].to(device),
-    }
-
-
-def featurizeImage(image_encoder, img_path, device) -> Dict:
-    #image_encoder: image_encoder name, e.g, "vit-base-patch16"
-    featurizer = transformers.AutoFeatureExtractor.from_pretrained(image_encoder)
-    processed_images = featurizer(
-            images=[Image.open(img_path).convert('RGB')],
-            return_tensors="pt",
-        )
-    return {
-        "pixel_values": processed_images['pixel_values'].to(device),
-    }
-
-
-question = "Which lobe of the lung is the lesion located in?"
-img_path = "data_RAD/images/synpic19477.jpg"
-
-# Load the vocabulary of all answers
-answer_space = loadAnswerSpace()
-
-# Tokenize the question & featurize the image
-question = question.lower().replace("?", "").strip()                    # Remove the question mark (if present) & extra spaces before tokenizing
-tokenized_question = tokenizeQuestion("pritamdeka/S-PubMedBert-MS-MARCO", question, device)
-featurized_img = featurizeImage("microsoft/swin-tiny-patch4-window7-224", img_path, device)
-
-# Load the model checkpoint (for 5 epochs, final checkpoint should be checkpoint-1500)
-model = MultimodalVQAModel(
-    pretrained_text_name=question,
-    pretrained_image_name=image,
-    num_labels=len(answer_space),
-    intermediate_dim=512
-)
-model.load_state_dict(torch.load(os.path.join("checkpoint", "ensemble", "pytorch_model.bin")))
-model.to(device)
-
-model.eval()
-
-# Obtain the prediction from the model
-input_ids = tokenized_question["input_ids"].to(device)
-# token_type_ids = tokenized_question["token_type_ids"].to(device)
-attention_mask = tokenized_question["attention_mask"].to(device)
-pixel_values = featurized_img["pixel_values"].to(device)
-output = model(input_ids, pixel_values, attention_mask) #token_type_ids
-
-# Obtain the answer from the answer space
-preds = output["logits"].argmax(axis=-1).cpu().numpy()
-answer = answer_space[preds[0]]
-
-answer
