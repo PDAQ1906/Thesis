@@ -1,0 +1,1054 @@
+img_id,img_name,question,answer,q_lang,location,modality,answer_type,base_type,content_type,triple,qid
+0,xmlab0/source.jpg,What modality is used to take this image?,MRI,en,Abdomen,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",9835
+0,xmlab0/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",9836
+0,xmlab0/source.jpg,What is the mr weighting in this image?,T2,en,Abdomen,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",9837
+0,xmlab0/source.jpg,Are there abnormalities in this image?,No,en,Abdomen,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9838
+0,xmlab0/source.jpg,What is the largest organ in the picture?,Liver,en,Abdomen,MRI,OPEN,vqa,Size,"['vhead', '_', '_']",9839
+0,xmlab0/source.jpg,Does the picture contain liver?,Yes,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",9840
+0,xmlab0/source.jpg,Does the picture contain kidney?,Yes,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",9841
+0,xmlab0/source.jpg,Does the picture contain spleen?,Yes,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",9842
+0,xmlab0/source.jpg,What diseases are included in the picture?,Unknown,en,Abdomen,MRI,OPEN,vqa,Abnormality,"['vhead', '_', '_']",9843
+0,xmlab0/source.jpg,Where is the liver?,Right,en,Abdomen,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",9844
+10,xmlab10/source.jpg,What modality is used to take this image?,MRI,en,Abdomen,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",9845
+10,xmlab10/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",9846
+10,xmlab10/source.jpg,What is the mr weighting in this image?,T2,en,Abdomen,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",9847
+10,xmlab10/source.jpg,How many kidneys in this image?,2,en,Abdomen,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",9848
+10,xmlab10/source.jpg,Are/Is the kidney normal in this image?,Yes,en,Abdomen,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9849
+10,xmlab10/source.jpg,Does the picture contain liver?,Yes,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",9850
+10,xmlab10/source.jpg,Does the picture contain kidney?,Yes,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",9851
+10,xmlab10/source.jpg,Does the picture contain spleen?,No,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",9852
+106,xmlab106/source.jpg,What modality is used to take this image?,CT,en,Lung,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",9853
+106,xmlab106/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,CT,OPEN,vqa,Position,"['vhead', '_', '_']",9854
+106,xmlab106/source.jpg,What is the main organ in the image?,Lung,en,Lung,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",9855
+106,xmlab106/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,CT,OPEN,vqa,Size,"['vhead', '_', '_']",9856
+106,xmlab106/source.jpg,Does the picture contain liver?,No,en,Lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9857
+106,xmlab106/source.jpg,Does the picture contain lung?,Yes,en,Lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9858
+106,xmlab106/source.jpg,Does the picture contain heart?,No,en,Lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9859
+106,xmlab106/source.jpg,What diseases are included in the picture?,Lung Cancer,en,Lung,CT,OPEN,vqa,Abnormality,"['vhead', '_', '_']",9860
+106,xmlab106/source.jpg,Is the lung healthy?,No,en,Lung,CT,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9861
+106,xmlab106/source.jpg,Where is/are the abnormality located?,"Right Lung, Left",en,Lung,CT,OPEN,vqa,Position,"['vhead', '_', '_']",9862
+112,xmlab112/source.jpg,What modality is used to take this image?,CT,en,Lung,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",9863
+112,xmlab112/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,CT,OPEN,vqa,Position,"['vhead', '_', '_']",9864
+112,xmlab112/source.jpg,What is the main organ in the image?,Lung,en,Lung,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",9865
+112,xmlab112/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,CT,OPEN,vqa,Size,"['vhead', '_', '_']",9866
+112,xmlab112/source.jpg,Does the picture contain liver?,No,en,Lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9867
+112,xmlab112/source.jpg,Does the picture contain lung?,Yes,en,Lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9868
+112,xmlab112/source.jpg,What diseases are included in the picture?,Lung Cancer,en,Lung,CT,OPEN,vqa,Abnormality,"['vhead', '_', '_']",9869
+112,xmlab112/source.jpg,Is the lung healthy?,No,en,Lung,CT,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9870
+112,xmlab112/source.jpg,Where is/are the abnormality located?,"Right Lung, Lower Left",en,Lung,CT,OPEN,vqa,Position,"['vhead', '_', '_']",9871
+112,xmlab112/source.jpg,"Which is the biggest in this image,lung,liver or heart?",Lung,en,Lung,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",9872
+119,xmlab119/source.jpg,What modality is used to take this image?,CT,en,Lung,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",9873
+119,xmlab119/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,CT,OPEN,vqa,Position,"['vhead', '_', '_']",9874
+119,xmlab119/source.jpg,What is the main organ in the image?,Lung,en,Lung,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",9875
+119,xmlab119/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,CT,OPEN,vqa,Size,"['vhead', '_', '_']",9876
+119,xmlab119/source.jpg,Does the picture contain liver?,No,en,Lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9877
+119,xmlab119/source.jpg,Does the picture contain lung?,Yes,en,Lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9878
+119,xmlab119/source.jpg,What diseases are included in the picture?,Lung Cancer,en,Lung,CT,OPEN,vqa,Abnormality,"['vhead', '_', '_']",9879
+119,xmlab119/source.jpg,Does the lung look healthy?,No,en,Lung,CT,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9880
+119,xmlab119/source.jpg,Where is/are the abnormality located?,"Right Lung, Upper Left",en,Lung,CT,OPEN,vqa,Position,"['vhead', '_', '_']",9881
+119,xmlab119/source.jpg,"Which is the biggest in this image,lung,liver or heart?",Lung,en,Lung,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",9882
+121,xmlab121/source.jpg,What modality is used to take this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",9883
+121,xmlab121/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9884
+121,xmlab121/source.jpg,Are there abnormalities in this image?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9885
+121,xmlab121/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,X-Ray,OPEN,vqa,Size,"['vhead', '_', '_']",9886
+121,xmlab121/source.jpg,What diseases are included in the picture?,Atelectasis,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",9887
+121,xmlab121/source.jpg,Where is/are the abnormality located?,"Left Lung, Lower Right",en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9888
+121,xmlab121/source.jpg,Is the lung healthy?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9889
+127,xmlab127/source.jpg,What modality is used to take this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",9890
+127,xmlab127/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9891
+127,xmlab127/source.jpg,Are there abnormalities in this image?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9892
+127,xmlab127/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,X-Ray,OPEN,vqa,Size,"['vhead', '_', '_']",9893
+127,xmlab127/source.jpg,What diseases are included in the picture?,Atelectasis,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",9894
+127,xmlab127/source.jpg,Where is/are the abnormality located?,"Left Lung, Lower Right",en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9895
+127,xmlab127/source.jpg,Does the lung look unhealthy?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9896
+128,xmlab128/source.jpg,What modality is used to take this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",9897
+128,xmlab128/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9898
+128,xmlab128/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,X-Ray,OPEN,vqa,Size,"['vhead', '_', '_']",9899
+128,xmlab128/source.jpg,What diseases are included in the picture?,Atelectasis,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",9900
+128,xmlab128/source.jpg,Where is/are the abnormality located?,"Left Lung, Right",en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9901
+128,xmlab128/source.jpg,Are there abnormalities in this image?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9902
+128,xmlab128/source.jpg,Does the lung look unhealthy?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9903
+129,xmlab129/source.jpg,What modality is used to take this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",9904
+129,xmlab129/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9905
+129,xmlab129/source.jpg,Are there abnormalities in this image?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9906
+129,xmlab129/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,X-Ray,OPEN,vqa,Size,"['vhead', '_', '_']",9907
+129,xmlab129/source.jpg,What diseases are included in the picture?,Atelectasis,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",9908
+129,xmlab129/source.jpg,Where is/are the abnormality located?,"Right Lung, Lower Left",en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9909
+129,xmlab129/source.jpg,Is the lung healthy?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9910
+139,xmlab139/source.jpg,What modality is used to take this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",9911
+139,xmlab139/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9912
+139,xmlab139/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,X-Ray,OPEN,vqa,Size,"['vhead', '_', '_']",9913
+139,xmlab139/source.jpg,What diseases are included in the picture?,Mass,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",9914
+139,xmlab139/source.jpg,Where is/are the abnormality located?,"Right Lung, Lower Left",en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9915
+139,xmlab139/source.jpg,Are there abnormalities in this image?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9916
+139,xmlab139/source.jpg,Does the lung look healthy?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9917
+139,xmlab139/source.jpg,"Which organ is abnormal, heart or lung?",Lung,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9918
+164,xmlab164/source.jpg,What modality is used to take this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",9919
+164,xmlab164/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9920
+164,xmlab164/source.jpg,Does this image look abnormal?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9921
+164,xmlab164/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,X-Ray,OPEN,vqa,Size,"['vhead', '_', '_']",9922
+164,xmlab164/source.jpg,What diseases are included in the picture?,Cardiomegaly,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",9923
+164,xmlab164/source.jpg,Where is/are the abnormality located?,Center,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9924
+164,xmlab164/source.jpg,"Which organ is abnormal, heart or lung?",Heart,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9925
+170,xmlab170/source.jpg,What modality is used to take this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",9926
+170,xmlab170/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9927
+170,xmlab170/source.jpg,Does this image look abnormal?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9928
+170,xmlab170/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,X-Ray,OPEN,vqa,Size,"['vhead', '_', '_']",9929
+170,xmlab170/source.jpg,What diseases are included in the picture?,Nodule,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",9930
+170,xmlab170/source.jpg,Where is/are the abnormality located?,"Right Lung, Left",en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9931
+170,xmlab170/source.jpg,Is the lung healthy?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9932
+170,xmlab170/source.jpg,Are there abnormalities in this image?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9933
+170,xmlab170/source.jpg,"Which organ is abnormal, heart or lung?",Lung,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9934
+191,xmlab191/source.jpg,What modality is used to take this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",9935
+191,xmlab191/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9936
+191,xmlab191/source.jpg,Does this image look abnormal?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9937
+191,xmlab191/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,X-Ray,OPEN,vqa,Size,"['vhead', '_', '_']",9938
+191,xmlab191/source.jpg,What diseases are included in the picture?,Cardiomegaly,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",9939
+191,xmlab191/source.jpg,Where is/are the abnormality located?,Center,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9940
+191,xmlab191/source.jpg,Are there abnormalities in this image?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9941
+191,xmlab191/source.jpg,"Which organ is abnormal, heart or lung?",Heart,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9942
+196,xmlab196/source.jpg,What modality is used to take this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",9943
+196,xmlab196/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9944
+196,xmlab196/source.jpg,Does this image look abnormal?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9945
+196,xmlab196/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,X-Ray,OPEN,vqa,Size,"['vhead', '_', '_']",9946
+196,xmlab196/source.jpg,What diseases are included in the picture?,Cardiomegaly,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",9947
+196,xmlab196/source.jpg,Where is/are the abnormality located?,Center,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",9948
+196,xmlab196/source.jpg,Are there abnormalities in this image?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9949
+196,xmlab196/source.jpg,"Which organ is abnormal, heart or lung?",Heart,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9950
+207,xmlab207/source.jpg,What modality is used to take this image?,CT,en,Abdomen,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",9951
+207,xmlab207/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",9952
+207,xmlab207/source.jpg,Does the picture contain liver?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9953
+207,xmlab207/source.jpg,Does the picture contain kidney?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9954
+207,xmlab207/source.jpg,Does the picture contain spleen?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9955
+207,xmlab207/source.jpg,Does the picture contain lung?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9956
+207,xmlab207/source.jpg,Does the picture contain heart?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9957
+207,xmlab207/source.jpg,Where is the liver?,Left,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",9958
+207,xmlab207/source.jpg,How many kidneys in this image?,2,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",9959
+207,xmlab207/source.jpg,"Which is bigger in this image, kidney or liver?",Kidney,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",9960
+207,xmlab207/source.jpg,What is the organ located in the lower right corner of the body in this image?,Left Kidney,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",9961
+207,xmlab207/source.jpg,What is the organ on the left side of this image?,Liver,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",9962
+207,xmlab207/source.jpg,What is the scanning plane of this image?,Transverse  Plane,en,Abdomen,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",9963
+21,xmlab21/source.jpg,What modality is used to take this image?,MRI,en,Abdomen,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",9964
+21,xmlab21/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",9965
+21,xmlab21/source.jpg,What is the mr weighting in this image?,T2,en,Abdomen,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",9966
+21,xmlab21/source.jpg,How many kidneys are there in this image?,2,en,Abdomen,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",9967
+21,xmlab21/source.jpg,"Which is bigger, left kidney or spleen ?",Left Kidney,en,Abdomen,MRI,CLOSED,vqa,Size,"['vhead', '_', '_']",9968
+21,xmlab21/source.jpg,Does the picture contain liver?,Yes,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",9969
+21,xmlab21/source.jpg,Does the picture contain kidney?,Yes,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",9970
+21,xmlab21/source.jpg,Does the picture contain spleen?,Yes,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",9971
+213,xmlab213/source.jpg,What modality is used to take this image?,CT,en,Abdomen,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",9972
+213,xmlab213/source.jpg,Which part of the body does this image belong to?,Chest,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",9973
+213,xmlab213/source.jpg,How many organs are there in this image?,3,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",9974
+213,xmlab213/source.jpg,What is the largest organ in the picture?,Lung,en,Abdomen,CT,OPEN,vqa,Size,"['vhead', '_', '_']",9975
+213,xmlab213/source.jpg,Does the picture contain liver?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9976
+213,xmlab213/source.jpg,Does the picture contain kidney?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9977
+213,xmlab213/source.jpg,Does the picture contain spleen?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9978
+213,xmlab213/source.jpg,Does the picture contain lung?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9979
+213,xmlab213/source.jpg,Does the picture contain heart?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9980
+213,xmlab213/source.jpg,What is the rightmost organ in this image?,Left Lung,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",9981
+213,xmlab213/source.jpg,What is the organ on the left side of this image?,Right Lung,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",9982
+213,xmlab213/source.jpg,What is the organ on the top of the body in this image?,Heart,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",9983
+213,xmlab213/source.jpg,What is the scanning plane of this image?,Transverse  Plane,en,Abdomen,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",9984
+22,xmlab22/source.jpg,What modality is used to take this image?,MRI,en,Abdomen,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",9985
+22,xmlab22/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",9986
+22,xmlab22/source.jpg,What is the mr weighting in this image?,T1,en,Abdomen,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",9987
+22,xmlab22/source.jpg,What is the largest organ in the picture?,Liver,en,Abdomen,MRI,OPEN,vqa,Size,"['vhead', '_', '_']",9988
+22,xmlab22/source.jpg,Does the picture contain liver?,Yes,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",9989
+22,xmlab22/source.jpg,Does the picture contain kidney?,No,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",9990
+22,xmlab22/source.jpg,Does the picture contain spleen?,Yes,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",9991
+22,xmlab22/source.jpg,"Which is bigger, liver or spleen?",Liver,en,Abdomen,MRI,CLOSED,vqa,Size,"['vhead', '_', '_']",9992
+22,xmlab22/source.jpg,Does the liver look normal?,Yes,en,Abdomen,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9993
+22,xmlab22/source.jpg,Does the spleen look normal?,Yes,en,Abdomen,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",9994
+228,xmlab228/source.jpg,What modality is used to take this image?,CT,en,Abdomen,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",9995
+228,xmlab228/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",9996
+228,xmlab228/source.jpg,Does the picture contain liver?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9997
+228,xmlab228/source.jpg,Does the picture contain kidney?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9998
+228,xmlab228/source.jpg,Does the picture contain spleen?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",9999
+228,xmlab228/source.jpg,Does the picture contain lung?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10000
+228,xmlab228/source.jpg,Does the picture contain heart?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10001
+228,xmlab228/source.jpg,Where is the liver?,Left,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10002
+228,xmlab228/source.jpg,How many kidneys in this image?,2,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10003
+228,xmlab228/source.jpg,"Which is bigger in this image, right kidney or liver?",Liver,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10004
+228,xmlab228/source.jpg,What is the organ on the left side of this image?,Liver,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10005
+228,xmlab228/source.jpg,What is the scanning plane of this image?,Transverse  Plane,en,Abdomen,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10006
+228,xmlab228/source.jpg,What is the shape of the kidney in the picture?,Irregular,en,Abdomen,CT,OPEN,vqa,Shape,"['vhead', '_', '_']",10007
+228,xmlab228/source.jpg,What is the organ on the lower right of the body in this image?,Left Kidney,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10008
+229,xmlab229/source.jpg,What modality is used to take this image?,CT,en,Abdomen,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10009
+229,xmlab229/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10010
+229,xmlab229/source.jpg,What is the largest organ in the picture?,Liver,en,Abdomen,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10011
+229,xmlab229/source.jpg,Does the picture contain liver?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10012
+229,xmlab229/source.jpg,Does the picture contain kidney?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10013
+229,xmlab229/source.jpg,Does the picture contain spleen?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10014
+229,xmlab229/source.jpg,What diseases are included in the picture?,Liver Cancer,en,Abdomen,CT,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10015
+229,xmlab229/source.jpg,Where is the liver?,Left,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10016
+229,xmlab229/source.jpg,Where is/are the abnormality located?,Liver,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10017
+229,xmlab229/source.jpg,How many kidneys in this image?,2,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10018
+229,xmlab229/source.jpg,Is the liver healthy?,No,en,Abdomen,CT,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10019
+229,xmlab229/source.jpg,What is the organ on the left side of this image?,Liver,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10020
+229,xmlab229/source.jpg,Does this image look normal?,No,en,Abdomen,CT,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10021
+229,xmlab229/source.jpg,Does the picture contain lung?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10022
+229,xmlab229/source.jpg,Does the picture contain heart?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10023
+229,xmlab229/source.jpg,"Which is bigger in this image, kidney or liver?",Liver,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10024
+229,xmlab229/source.jpg,What is the rightmost organ in this image?,Spleen,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10025
+229,xmlab229/source.jpg,What is the scanning plane of this image?,Transverse  Plane,en,Abdomen,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10026
+229,xmlab229/source.jpg,What is the shape of the kidney in the picture?,Irregular,en,Abdomen,CT,OPEN,vqa,Shape,"['vhead', '_', '_']",10027
+238,xmlab238/source.jpg,What modality is used to take this image?,CT,en,Abdomen,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10028
+238,xmlab238/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10029
+238,xmlab238/source.jpg,Does this image look normal?,Yes,en,Abdomen,CT,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10030
+238,xmlab238/source.jpg,What is the largest organ in the picture?,Lung,en,Abdomen,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10031
+238,xmlab238/source.jpg,Does the picture contain liver?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10032
+238,xmlab238/source.jpg,Does the picture contain kidney?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10033
+238,xmlab238/source.jpg,Does the picture contain spleen?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10034
+238,xmlab238/source.jpg,Does the picture contain lung?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10035
+238,xmlab238/source.jpg,Does the picture contain heart?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10036
+238,xmlab238/source.jpg,Which one is the liver?,Gray ball on the left,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10037
+238,xmlab238/source.jpg,"Which is bigger in this image, liver or heart?",Heart,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10038
+238,xmlab238/source.jpg,What is the rightmost organ in this image?,Left Lung,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10039
+238,xmlab238/source.jpg,What organ is the gray part on the left of the image?,Liver,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10040
+238,xmlab238/source.jpg,What organ is the black part on the left of the image?,Right Lung,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10041
+238,xmlab238/source.jpg,What is the organ on the top of the body in this image?,Heart,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10042
+238,xmlab238/source.jpg,What is the scanning plane of this image?,Transverse  Plane,en,Abdomen,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10043
+245,xmlab245/source.jpg,What modality is used to take this image?,CT,en,Chest_heart,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10044
+245,xmlab245/source.jpg,Which part of the body does this image belong to?,Chest,en,Chest_heart,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10045
+245,xmlab245/source.jpg,What is the largest organ in the picture?,Lung,en,Chest_heart,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10046
+245,xmlab245/source.jpg,Does the picture contain liver?,No,en,Chest_heart,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10047
+245,xmlab245/source.jpg,Does the picture contain kidney?,No,en,Chest_heart,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10048
+245,xmlab245/source.jpg,Does the picture contain spleen?,No,en,Chest_heart,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10049
+245,xmlab245/source.jpg,Does the picture contain lung?,Yes,en,Chest_heart,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10050
+245,xmlab245/source.jpg,Does the picture contain heart?,Yes,en,Chest_heart,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10051
+245,xmlab245/source.jpg,What organ is the gray part of the image?,Heart,en,Chest_heart,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10052
+245,xmlab245/source.jpg,What organ is the black part of the image?,Lung,en,Chest_heart,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10053
+245,xmlab245/source.jpg,What is the organ on the top of the body in this image?,Heart,en,Chest_heart,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10054
+245,xmlab245/source.jpg,What is the scanning plane of this image?,Transverse  Plane,en,Chest_heart,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10055
+257,xmlab257/source.jpg,What modality is used to take this image?,CT,en,Chest_lung,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10056
+257,xmlab257/source.jpg,Which part of the body does this image belong to?,Chest,en,Chest_lung,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10057
+257,xmlab257/source.jpg,What is the largest organ in the picture?,Lung,en,Chest_lung,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10058
+257,xmlab257/source.jpg,Does the picture contain liver?,No,en,Chest_lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10059
+257,xmlab257/source.jpg,Does the picture contain kidney?,No,en,Chest_lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10060
+257,xmlab257/source.jpg,Does the picture contain spleen?,No,en,Chest_lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10061
+257,xmlab257/source.jpg,Does the picture contain lung?,Yes,en,Chest_lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10062
+257,xmlab257/source.jpg,Does the picture contain heart?,Yes,en,Chest_lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10063
+257,xmlab257/source.jpg,"Which is bigger in this image, heart or lung?",Lung,en,Chest_lung,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10064
+257,xmlab257/source.jpg,What organ is the black part on the right of the image?,Left Lung,en,Chest_lung,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10065
+257,xmlab257/source.jpg,What organ is the black part on the left of the image?,Right Lung,en,Chest_lung,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10066
+257,xmlab257/source.jpg,What is the organ on the top of the body in this image?,Heart,en,Chest_lung,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10067
+257,xmlab257/source.jpg,What is the scanning plane of this image?,Transverse  Plane,en,Chest_lung,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10068
+257,xmlab257/source.jpg,What are the white veins in the black part of the body?,Pulmonary bronchus,en,Chest_lung,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10069
+258,xmlab258/source.jpg,What modality is used to take this image?,CT,en,Abdomen,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10070
+258,xmlab258/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10071
+258,xmlab258/source.jpg,Does this image look normal?,Yes,en,Abdomen,CT,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10072
+258,xmlab258/source.jpg,What is the largest organ in the picture?,Lung,en,Abdomen,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10073
+258,xmlab258/source.jpg,Does the picture contain liver?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10074
+258,xmlab258/source.jpg,Does the picture contain kidney?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10075
+258,xmlab258/source.jpg,Does the picture contain spleen?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10076
+258,xmlab258/source.jpg,Does the picture contain lung?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10077
+258,xmlab258/source.jpg,Does the picture contain heart?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10078
+258,xmlab258/source.jpg,How many kidneys in this image?,0,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10079
+258,xmlab258/source.jpg,"Which is bigger in this image, liver or heart ?",Heart,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10080
+258,xmlab258/source.jpg,What organ is the gray part on the left of the image?,Liver,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10081
+258,xmlab258/source.jpg,What organ is the black part on the left of the image?,Right Lung,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10082
+258,xmlab258/source.jpg,What is the organ on the top of the body in this image?,Heart,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10083
+258,xmlab258/source.jpg,What is the scanning plane of this image?,Transverse  Plane,en,Abdomen,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10084
+258,xmlab258/source.jpg,Which is the liver?,Gray ball on the left,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10085
+263,xmlab263/source.jpg,What modality is used to take this image?,CT,en,Abdomen,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10086
+263,xmlab263/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10087
+263,xmlab263/source.jpg,Does the picture contain liver?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10088
+263,xmlab263/source.jpg,Does the picture contain kidney?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10089
+263,xmlab263/source.jpg,Does the picture contain spleen?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10090
+263,xmlab263/source.jpg,Where is the liver?,Left,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10091
+263,xmlab263/source.jpg,How many kidneys in this image?,2,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10092
+263,xmlab263/source.jpg,"Which is bigger in this image, liver or kidney?",Kidney,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10093
+263,xmlab263/source.jpg,What is the rightmost organ in this image?,Large Bowel,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10094
+263,xmlab263/source.jpg,What organ is the gray part on the left of the image?,Liver,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10095
+263,xmlab263/source.jpg,What is the scanning plane of this image?,Transverse  Plane,en,Abdomen,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10096
+263,xmlab263/source.jpg,What is the shape of the kidney in the picture?,Irregular,en,Abdomen,CT,OPEN,vqa,Shape,"['vhead', '_', '_']",10097
+263,xmlab263/source.jpg,Which is the kidney?,Symmetrical to the bone marrow,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10098
+270,xmlab270/source.jpg,What modality is used to take this image?,CT,en,Abdomen,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10099
+270,xmlab270/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10100
+270,xmlab270/source.jpg,Does this image look normal?,No,en,Abdomen,CT,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10101
+270,xmlab270/source.jpg,What is the largest organ in the picture?,Liver,en,Abdomen,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10102
+270,xmlab270/source.jpg,Does the picture contain liver?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10103
+270,xmlab270/source.jpg,Does the picture contain kidney?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10104
+270,xmlab270/source.jpg,Does the picture contain spleen?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10105
+270,xmlab270/source.jpg,Does the picture contain lung?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10106
+270,xmlab270/source.jpg,Does the picture contain heart?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10107
+270,xmlab270/source.jpg,What diseases are included in the picture?,Liver Cancer,en,Abdomen,CT,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10108
+270,xmlab270/source.jpg,Where is the liver?,Left,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10109
+270,xmlab270/source.jpg,Where is/are the abnormality located?,Liver,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10110
+270,xmlab270/source.jpg,How many kidneys in this image?,0,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10111
+270,xmlab270/source.jpg,"Which is bigger in this image, liver or lung?",Liver,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10112
+270,xmlab270/source.jpg,What is the rightmost organ in this image?,Left Lung,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10113
+270,xmlab270/source.jpg,What organ is the gray part on the left of the image?,Liver,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10114
+270,xmlab270/source.jpg,What is the scanning plane of this image?,Transverse  Plane,en,Abdomen,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10115
+285,xmlab285/source.jpg,What modality is used to take this image?,CT,en,Abdomen,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10116
+285,xmlab285/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10117
+285,xmlab285/source.jpg,Does this image look normal?,No,en,Abdomen,CT,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10118
+285,xmlab285/source.jpg,What is the largest organ in the picture?,Liver,en,Abdomen,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10119
+285,xmlab285/source.jpg,Does the picture contain liver?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10120
+285,xmlab285/source.jpg,Does the picture contain kidney?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10121
+285,xmlab285/source.jpg,Does the picture contain spleen?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10122
+285,xmlab285/source.jpg,Does the picture contain lung?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10123
+285,xmlab285/source.jpg,Does the picture contain heart?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10124
+285,xmlab285/source.jpg,How many kidneys in this image?,1,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10125
+285,xmlab285/source.jpg,"Which is bigger in this image, spleen or liver?",Liver,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10126
+285,xmlab285/source.jpg,What organ is the gray part on the left of the image?,Liver,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10127
+285,xmlab285/source.jpg,What is the scanning plane of this image?,Transverse  Plane,en,Abdomen,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10128
+291,xmlab291/source.jpg,What modality is used to take this image?,CT,en,Abdomen,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10129
+291,xmlab291/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10130
+291,xmlab291/source.jpg,What is the largest organ in the picture?,Small Bowel,en,Abdomen,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10131
+291,xmlab291/source.jpg,Does the picture contain liver?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10132
+291,xmlab291/source.jpg,Does the picture contain kidney?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10133
+291,xmlab291/source.jpg,Does the picture contain spleen?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10134
+291,xmlab291/source.jpg,How many kidneys in this image?,2,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10135
+291,xmlab291/source.jpg,What is the organ located in the lower right corner?,Left Kidney,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10136
+291,xmlab291/source.jpg,What is the organ on the left side of this image?,Large Bowel,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10137
+291,xmlab291/source.jpg,Which is the kidney?,Symmetrical to the bone marrow,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10138
+291,xmlab291/source.jpg,What is the scanning plane of this image?,Transverse  Plane,en,Abdomen,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10139
+291,xmlab291/source.jpg,What organ is the gray part on the lower left of the image?,Right Kidney,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10140
+303,xmlab303/source.jpg,"Which type of modality is shown about this image, MRI, CT or X-Ray?",X-Ray,en,Lung,X-Ray,CLOSED,vqa,Modality,"['vhead', '_', '_']",10141
+303,xmlab303/source.jpg,In what plane is this image scanned?,Coronal Plane,en,Lung,X-Ray,OPEN,vqa,Plane,"['vhead', '_', '_']",10142
+303,xmlab303/source.jpg,Do the organs in the image exist in the chest?,Yes,en,Lung,X-Ray,CLOSED,vqa,Position,"['vhead', '_', '_']",10143
+303,xmlab303/source.jpg,Where is/are the abnormality located in this picture?,Both Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10144
+303,xmlab303/source.jpg,Where is the pleural effusion?,Lower Left Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10145
+303,xmlab303/source.jpg,Is this a study of the chest?,Yes,en,Lung,X-Ray,CLOSED,vqa,Organ,"['vhead', '_', '_']",10146
+303,xmlab303/source.jpg,What is the main organ in the image?,Lung,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10147
+303,xmlab303/source.jpg,What disease is/are shown on the left of lung?,Pleural Effusion,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10148
+303,xmlab303/source.jpg,Does the lung look abnormal?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10149
+303,xmlab303/source.jpg,Can pleural infiltration be observed on the lower right lung in this picture?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10150
+303,xmlab303/source.jpg,What color does the left lung show in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10151
+303,xmlab303/source.jpg,How many organs are there in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10152
+303,xmlab303/source.jpg,How much damage will be caused to the body taking such an image?,A Little,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'damage', 'ktail']",10153
+303,xmlab303/source.jpg,How to treat the disease located on the left of lung in this image?,"Medical treatment, surgical treatment",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'treat', 'ktail']",10154
+303,xmlab303/source.jpg,Which organs/organ in the picture belong to the circulatory system?,Heart,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'belong to', 'circulatory system']",10155
+307,xmlab307/source.jpg,Is this an MRI?,No,en,Lung,X-Ray,CLOSED,vqa,Modality,"['vhead', '_', '_']",10156
+307,xmlab307/source.jpg,What scanning plane does this image belong to?,Coronal Plane,en,Lung,X-Ray,OPEN,vqa,Plane,"['vhead', '_', '_']",10157
+307,xmlab307/source.jpg,Which part of the human body is the organ located in the image?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10158
+307,xmlab307/source.jpg,Where is/are the abnormality located in this picture?,Lower Right Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10159
+307,xmlab307/source.jpg,Where is the atelectasis in the lung?,Lower Right Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10160
+307,xmlab307/source.jpg,What is the main organ in the image?,Lung,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10161
+307,xmlab307/source.jpg,Is this a study of the chest?,Yes,en,Lung,X-Ray,CLOSED,vqa,Organ,"['vhead', '_', '_']",10162
+307,xmlab307/source.jpg,Is the lung normal appearing?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10163
+307,xmlab307/source.jpg,Does the lung look abnormal?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10164
+307,xmlab307/source.jpg,Can atelectasis be observed on the lower left lung in this picture?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10165
+307,xmlab307/source.jpg,What color is the lung in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10166
+307,xmlab307/source.jpg,How many existing heart in this image?,1,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10167
+307,xmlab307/source.jpg,What is the function of the main organ in this picture?,Breathe,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'function', 'ktail']",10168
+307,xmlab307/source.jpg,What kind of symptoms will the disease on the lower right lung bring to the patient?,"Chest tightness, shortness of breath, difficulty breathing, dry cough",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'symptom', 'ktail']",10169
+307,xmlab307/source.jpg,Which organs/organ in the picture belong to the circulatory system?,Heart,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'belong to', 'circulatory system']",10170
+309,xmlab309/source.jpg,Is this image taken via X-Ray?,Yes,en,Lung,X-Ray,CLOSED,vqa,Modality,"['vhead', '_', '_']",10171
+309,xmlab309/source.jpg,What scanning plane does this image belong to?,Coronal Plane,en,Lung,X-Ray,OPEN,vqa,Plane,"['vhead', '_', '_']",10172
+309,xmlab309/source.jpg,Which part do the organs in this image locate from the aspect of the whole body?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10173
+309,xmlab309/source.jpg,"Which side of lung is abnormal in this image,left or right?",Right,en,Lung,X-Ray,CLOSED,vqa,Position,"['vhead', '_', '_']",10174
+309,xmlab309/source.jpg,Where is the infiltration in the lung?,Right Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10175
+309,xmlab309/source.jpg,Is this a study of the head?,No,en,Lung,X-Ray,CLOSED,vqa,Organ,"['vhead', '_', '_']",10176
+309,xmlab309/source.jpg,Is this a study of the chest?,Yes,en,Lung,X-Ray,CLOSED,vqa,Organ,"['vhead', '_', '_']",10177
+309,xmlab309/source.jpg,Is this image normal?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10178
+309,xmlab309/source.jpg,Are there abnormalities in this image?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10179
+309,xmlab309/source.jpg,Can infiltration be observed on the right lung in this picture?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10180
+309,xmlab309/source.jpg,What color does the right lung show in the picture?,Gray,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10181
+309,xmlab309/source.jpg,How many existing lungs in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10182
+309,xmlab309/source.jpg,What is the function of the main organ in this picture?,Breathe,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'function', 'ktail']",10183
+309,xmlab309/source.jpg,How to treat the disease located on the right of lung in this image?,Medical treatment,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'treat', 'ktail']",10184
+309,xmlab309/source.jpg,Which organs/organ is part of the respiratory system in this image?,Lung,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'part of', 'respiratory system']",10185
+322,xmlab322/source.jpg,What modality is used to take this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",10186
+322,xmlab322/source.jpg,What is the scanning plane of this image?,Coronal Plane,en,Lung,X-Ray,OPEN,vqa,Plane,"['vhead', '_', '_']",10187
+322,xmlab322/source.jpg,Which part do the organs in this image locate from the aspect of the whole body?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10188
+322,xmlab322/source.jpg,Where is the abnormality in this image?,Lower Right Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10189
+322,xmlab322/source.jpg,Where is/are the pleural effusion located?,Lower Right Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10190
+322,xmlab322/source.jpg,Which organ system is imaged?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10191
+322,xmlab322/source.jpg,What organ system is pictured?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10192
+322,xmlab322/source.jpg,Is the lung healthy?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10193
+322,xmlab322/source.jpg,What disease is/are shown on the right of chest in this image?,Pleural Effusion,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10194
+322,xmlab322/source.jpg,Can pleural effusion be observed on the upper right chest in this picture?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10195
+322,xmlab322/source.jpg,What color does the right lung show in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10196
+322,xmlab322/source.jpg,How many organs are there in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10197
+322,xmlab322/source.jpg,What is the effect of the main organ in this picture?,Breathe,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10198
+322,xmlab322/source.jpg,How to prevent the occurrence of the disease on the lower right chest in this image?,"Live healthy, enhance physical fitness",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'prevent', 'ktail']",10199
+322,xmlab322/source.jpg,Which organs/organ in the picture belong to the respiratory system?,Lung,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'belong to', 'respiratory system']",10200
+324,xmlab324/source.jpg,Is this a X-Ray?,Yes,en,Lung,X-Ray,CLOSED,vqa,Modality,"['vhead', '_', '_']",10201
+324,xmlab324/source.jpg,In what plane is this image scanned?,Coronal Plane,en,Lung,X-Ray,OPEN,vqa,Plane,"['vhead', '_', '_']",10202
+324,xmlab324/source.jpg,Which part do the organs in this image locate from the aspect of the whole body?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10203
+324,xmlab324/source.jpg,Where is the abnormality in this image?,Left Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10204
+324,xmlab324/source.jpg,Where is/are the mass located in this image?,Left Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10205
+324,xmlab324/source.jpg,What organ system is primarily present in this image?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10206
+324,xmlab324/source.jpg,Which organs appear in pairs?,Lung,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10207
+324,xmlab324/source.jpg,What diseases are included in the picture?,Pulmonary Mass,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10208
+324,xmlab324/source.jpg,Does the lung look abnormal?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10209
+324,xmlab324/source.jpg,Can mass be observed on the left lung in this picture?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10210
+324,xmlab324/source.jpg,What color does the left lung show in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10211
+324,xmlab324/source.jpg,How many lungs are shown in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10212
+324,xmlab324/source.jpg,What is the effect of the main organ in this picture?,Breathe,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10213
+324,xmlab324/source.jpg,What kind of symptoms will the disease on the left of lung bring to the patient?,"Dyspnea, hemoptysis, chest pain",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'symptom', 'ktail']",10214
+324,xmlab324/source.jpg,Which organs/organ is part of the respiratory system in this image?,Lung,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'part of', 'respiratory system']",10215
+330,xmlab330/source.jpg,Is this image taken via X-Ray?,Yes,en,Lung,X-Ray,CLOSED,vqa,Modality,"['vhead', '_', '_']",10216
+330,xmlab330/source.jpg,Is this a coronal plane?,Yes,en,Lung,X-Ray,CLOSED,vqa,Plane,"['vhead', '_', '_']",10217
+330,xmlab330/source.jpg,Where does the image represent in the body?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10218
+330,xmlab330/source.jpg,Where is the abnormality in this image?,Right Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10219
+330,xmlab330/source.jpg,What part of the lung is the mass located in?,Right Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10220
+330,xmlab330/source.jpg,What organ system is primarily present in this image?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10221
+330,xmlab330/source.jpg,What is the organ system visualized?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10222
+330,xmlab330/source.jpg,Is the lung healthy?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10223
+330,xmlab330/source.jpg,What disease is/are shown on the right of lung?,Pulmonary Mass,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10224
+330,xmlab330/source.jpg,Can mass be observed on the lower right lung in this picture?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10225
+330,xmlab330/source.jpg,What color does the right lung show in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10226
+330,xmlab330/source.jpg,How many existing heart in this image?,1,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10227
+330,xmlab330/source.jpg,What can the organ with black color in this image be used for?,Breathe,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'be used for', 'ktail']",10228
+330,xmlab330/source.jpg,How to treat the disease located on the right of lung in this image?,"Medical treatment, surgical treatment",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'treat', 'ktail']",10229
+330,xmlab330/source.jpg,Which organs/organ in the picture belong to the circulatory system?,Heart,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'belong to', 'circulatory system']",10230
+34,xmlab34/source.jpg,What modality is used to take this image?,MRI,en,Abdomen,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10231
+34,xmlab34/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10232
+34,xmlab34/source.jpg,What is the mr weighting in this image?,T1,en,Abdomen,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10233
+34,xmlab34/source.jpg,Does the picture contain liver?,No,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10234
+34,xmlab34/source.jpg,Does the picture contain kidney?,No,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10235
+34,xmlab34/source.jpg,Does the picture contain spleen?,No,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10236
+34,xmlab34/source.jpg,How many kidneys in this image?,0,en,Abdomen,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",10237
+347,xmlab347/source.jpg,How was this image taken?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",10238
+347,xmlab347/source.jpg,What scanning plane does this image belong to?,Coronal Plane,en,Lung,X-Ray,OPEN,vqa,Plane,"['vhead', '_', '_']",10239
+347,xmlab347/source.jpg,Where does the image represent in the body?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10240
+347,xmlab347/source.jpg,Which organ of chest is abnormal in this image?,Heart,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10241
+347,xmlab347/source.jpg,Where is the cardiomegaly in this image?,Heart,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10242
+347,xmlab347/source.jpg,What organ system is pictured?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10243
+347,xmlab347/source.jpg,Which organ system is imaged?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10244
+347,xmlab347/source.jpg,Does the patient have any abnormalities?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10245
+347,xmlab347/source.jpg,What diseases are included in the picture?,Cardiomegaly,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10246
+347,xmlab347/source.jpg,Can cardiomegaly be observed in this picture?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10247
+347,xmlab347/source.jpg,What color does the left lung show in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10248
+347,xmlab347/source.jpg,How many existing lungs in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10249
+347,xmlab347/source.jpg,What is the effect of the center organ in this picture?,Promote blood flow,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10250
+347,xmlab347/source.jpg,What is the main cause of the disease of the heart in the picture?,"Hypertension, dilated cardiomyopathy",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'cause', 'ktail']",10251
+347,xmlab347/source.jpg,Which organs/organ in the picture belong to the circulatory system?,Heart,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'belong to', 'circulatory system']",10252
+348,xmlab348/source.jpg,Is this image taken via CT?,No,en,Lung,X-Ray,CLOSED,vqa,Modality,"['vhead', '_', '_']",10253
+348,xmlab348/source.jpg,What scanning plane does this image belong to?,Coronal Plane,en,Lung,X-Ray,OPEN,vqa,Plane,"['vhead', '_', '_']",10254
+348,xmlab348/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10255
+348,xmlab348/source.jpg,"Which side of lung is abnormal in this image,left or right?",Left,en,Lung,X-Ray,CLOSED,vqa,Position,"['vhead', '_', '_']",10256
+348,xmlab348/source.jpg,What part of the lung is the pneumonia located in?,Lower Left Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10257
+348,xmlab348/source.jpg,Is this a study of the chest?,Yes,en,Lung,X-Ray,CLOSED,vqa,Organ,"['vhead', '_', '_']",10258
+348,xmlab348/source.jpg,What is the main organ in the image?,Lung,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10259
+348,xmlab348/source.jpg,Is the lung normal appearing?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10260
+348,xmlab348/source.jpg,Is this image normal?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10261
+348,xmlab348/source.jpg,Can pneumonia be observed on the lower right lung in this picture?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10262
+348,xmlab348/source.jpg,What color does the right lung show in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10263
+348,xmlab348/source.jpg,How many existing heart in this image?,1,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10264
+348,xmlab348/source.jpg,What can the organ with black color in this image be used for?,Breathe,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'be used for', 'ktail']",10265
+348,xmlab348/source.jpg,What kind of symptoms will the disease on the lower left of lung bring to the patient?,"Cough foamy mucus sputum, dyspnea, cough, chest pain",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'symptom', 'ktail']",10266
+348,xmlab348/source.jpg,Which organs/organ is part of the respiratory system in this image?,Lung,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'part of', 'respiratory system']",10267
+349,xmlab349/source.jpg,What modality is shown in this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",10268
+349,xmlab349/source.jpg,In what plane is this image scanned?,Coronal Plane,en,Lung,X-Ray,OPEN,vqa,Plane,"['vhead', '_', '_']",10269
+349,xmlab349/source.jpg,Where does the picture show?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10270
+349,xmlab349/source.jpg,"Which side of lung is abnormal in this image,left or right?",Right,en,Lung,X-Ray,CLOSED,vqa,Position,"['vhead', '_', '_']",10271
+349,xmlab349/source.jpg,Where is the pneumonia in this image?,Lower Right Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10272
+349,xmlab349/source.jpg,Which organs appear in pairs?,Lung,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10273
+349,xmlab349/source.jpg,What organ system is primarily present in this image?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10274
+349,xmlab349/source.jpg,Is the lung normal appearing?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10275
+349,xmlab349/source.jpg,Is/Are there abnormalities in the patient's right lung?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10276
+349,xmlab349/source.jpg,Can pneumonia be observed on the lower right lung in this picture?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10277
+349,xmlab349/source.jpg,What color does the left lung show in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10278
+349,xmlab349/source.jpg,How many organs are there in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10279
+349,xmlab349/source.jpg,What is the effect of the main organ in this picture?,Breathe,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10280
+349,xmlab349/source.jpg,How to treat the disease located on the right of lung in this image?,"Medical therapy, supportive therapy",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'treat', 'ktail']",10281
+349,xmlab349/source.jpg,Which organs/organ is part of the circulatory system in this image?,Heart,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'part of', 'circulatory system']",10282
+351,xmlab351/source.jpg,Is this a X-Ray?,Yes,en,Lung,X-Ray,CLOSED,vqa,Modality,"['vhead', '_', '_']",10283
+351,xmlab351/source.jpg,What is the scanning plane of this image?,Coronal Plane,en,Lung,X-Ray,OPEN,vqa,Plane,"['vhead', '_', '_']",10284
+351,xmlab351/source.jpg,Which part of the human body is the organ located in the image?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10285
+351,xmlab351/source.jpg,Which organ of chest is abnormal in this image?,Heart,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10286
+351,xmlab351/source.jpg,Where is the cardiomegaly in the image?,Heart,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10287
+351,xmlab351/source.jpg,What is the organ system visualized?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10288
+351,xmlab351/source.jpg,What organ system is primarily present in this image?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10289
+351,xmlab351/source.jpg,Is the lung abnormal?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10290
+351,xmlab351/source.jpg,What diseases are included in the picture?,Cardiomegaly,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10291
+351,xmlab351/source.jpg,Can cardiomegaly be observed in this picture?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10292
+351,xmlab351/source.jpg,What color is the lung in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10293
+351,xmlab351/source.jpg,How many lungs are shown in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10294
+351,xmlab351/source.jpg,What is the function of the main organ in this picture?,Breathe,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'function', 'ktail']",10295
+351,xmlab351/source.jpg,How to prevent the occurrence of the disease on the heart in this image?,"Live healthy, enhance physical fitness",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'prevent', 'ktail']",10296
+351,xmlab351/source.jpg,Which organs/organ is part of the respiratory system in this image?,Lung,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'part of', 'respiratory system']",10297
+353,xmlab353/source.jpg,What modality is shown in this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",10298
+353,xmlab353/source.jpg,In what plane is this image scanned?,Coronal Plane,en,Lung,X-Ray,OPEN,vqa,Plane,"['vhead', '_', '_']",10299
+353,xmlab353/source.jpg,Where does the picture show?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10300
+353,xmlab353/source.jpg,Which lobe is abnormal in this image?,Right,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10301
+353,xmlab353/source.jpg,Where is/are the pneumonia located?,Right Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10302
+353,xmlab353/source.jpg,What organ system is pictured?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10303
+353,xmlab353/source.jpg,What organ system is primarily present in this image?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10304
+353,xmlab353/source.jpg,Does the patient have any abnormalities?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10305
+353,xmlab353/source.jpg,What diseases are included in the picture?,Pneumonia,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10306
+353,xmlab353/source.jpg,Can pneumonia be observed on the left lung in this picture?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10307
+353,xmlab353/source.jpg,What color does the right lung show in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10308
+353,xmlab353/source.jpg,How many existing heart in this image?,1,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10309
+353,xmlab353/source.jpg,How much damage will be caused to the body taking such an image?,A Little,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'damage', 'ktail']",10310
+353,xmlab353/source.jpg,How to treat the disease located on the right of lung in this image?,"Medical therapy, supportive therapy",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'treat', 'ktail']",10311
+353,xmlab353/source.jpg,Which organs/organ is part of the respiratory system in this image?,Lung,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'part of', 'respiratory system']",10312
+359,xmlab359/source.jpg,Is this image taken via CT?,No,en,Lung,X-Ray,CLOSED,vqa,Modality,"['vhead', '_', '_']",10313
+359,xmlab359/source.jpg,Is this a transverse plane?,No,en,Lung,X-Ray,CLOSED,vqa,Plane,"['vhead', '_', '_']",10314
+359,xmlab359/source.jpg,Which part of the human body is the organ located in the image?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10315
+359,xmlab359/source.jpg,Which lobe is abnormal in this image?,Both,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10316
+359,xmlab359/source.jpg,Where is/are the mass located?,Both Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10317
+359,xmlab359/source.jpg,What is the main organ in the image?,Lung,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10318
+359,xmlab359/source.jpg,What organ system is primarily present in this image?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10319
+359,xmlab359/source.jpg,What disease is/are shown on the left of lung?,Pulmonary Mass,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10320
+359,xmlab359/source.jpg,Does the lung look abnormal?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10321
+359,xmlab359/source.jpg,Can mass be observed on the lower right lung in this picture?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10322
+359,xmlab359/source.jpg,What color does the right lung show in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10323
+359,xmlab359/source.jpg,How many lungs are shown in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10324
+359,xmlab359/source.jpg,What is the effect of the center organ in this picture?,Promote blood flow,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10325
+359,xmlab359/source.jpg,How to prevent the occurrence of the disease on the lower right lobe of lung in this image?,Keep healthy,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'prevent', 'ktail']",10326
+359,xmlab359/source.jpg,Which organs/organ in the picture belong to the circulatory system?,Heart,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'belong to', 'circulatory system']",10327
+360,xmlab360/source.jpg,What imaging modality was used?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",10328
+360,xmlab360/source.jpg,"Which plane is the image scanned, transverse plane or coronal plane?",Coronal Plane,en,Lung,X-Ray,CLOSED,vqa,Plane,"['vhead', '_', '_']",10329
+360,xmlab360/source.jpg,Where does the picture show?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10330
+360,xmlab360/source.jpg,Where is/are the abnormality located in this picture?,Both Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10331
+360,xmlab360/source.jpg,Where is/are the pneumonia located?,Both Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10332
+360,xmlab360/source.jpg,Which organ system is imaged?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10333
+360,xmlab360/source.jpg,What organ system is pictured?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10334
+360,xmlab360/source.jpg,Is the lung healthy?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10335
+360,xmlab360/source.jpg,Is this image normal?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10336
+360,xmlab360/source.jpg,Can pneumonia be observed on the lower left lung in this picture?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10337
+360,xmlab360/source.jpg,What color does the right lung show in the picture?,Gray,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10338
+360,xmlab360/source.jpg,How many organs are there in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10339
+360,xmlab360/source.jpg,How much damage will be caused to the body taking such an image?,A Little,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'damage', 'ktail']",10340
+360,xmlab360/source.jpg,How to treat the disease located on the left of lung in this image?,"Medical therapy, supportive therapy",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'treat', 'ktail']",10341
+360,xmlab360/source.jpg,Which organs/organ in the picture belong to the circulatory system?,Heart,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'belong to', 'circulatory system']",10342
+366,xmlab366/source.jpg,What modality is shown in this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",10343
+366,xmlab366/source.jpg,Is this a transverse section?,No,en,Lung,X-Ray,CLOSED,vqa,Plane,"['vhead', '_', '_']",10344
+366,xmlab366/source.jpg,Do the organs in the image exist in the abdomen?,No,en,Lung,X-Ray,CLOSED,vqa,Position,"['vhead', '_', '_']",10345
+366,xmlab366/source.jpg,Which side of lung is abnormal in this image?,Left,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10346
+366,xmlab366/source.jpg,What part of the lung is the pneumonia located in?,Lower Left Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10347
+366,xmlab366/source.jpg,What organ system is primarily present in this image?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10348
+366,xmlab366/source.jpg,Which organ system is imaged?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10349
+366,xmlab366/source.jpg,What diseases are included in the picture?,Pneumonia,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10350
+366,xmlab366/source.jpg,Is the lung abnormal?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10351
+366,xmlab366/source.jpg,Can pneumonia be observed on the upper right lung in this picture?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10352
+366,xmlab366/source.jpg,What color does the right lung show in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10353
+366,xmlab366/source.jpg,How many lungs are shown in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10354
+366,xmlab366/source.jpg,What is the function of the main organ in this picture?,Breathe,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'function', 'ktail']",10355
+366,xmlab366/source.jpg,How to prevent the occurrence of the disease on the lower left lobe of lung in this image?,"Pay attention to prevent cold and keep warm, enhance physical fitness",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'prevent', 'ktail']",10356
+366,xmlab366/source.jpg,Which organs/organ is part of the respiratory system in this image?,Lung,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'part of', 'respiratory system']",10357
+379,xmlab379/source.jpg,What type of medical image is this?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",10358
+379,xmlab379/source.jpg,What scanning plane does this image belong to?,Coronal Plane,en,Lung,X-Ray,OPEN,vqa,Plane,"['vhead', '_', '_']",10359
+379,xmlab379/source.jpg,Which part of the human body is the organ located in the image?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10360
+379,xmlab379/source.jpg,Where is the heart in this image?,Center,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10361
+379,xmlab379/source.jpg,Where is/are the atelectasis located?,Lower Left Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10362
+379,xmlab379/source.jpg,What organ system is primarily present in this image?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10363
+379,xmlab379/source.jpg,Is this a study of the chest?,Yes,en,Lung,X-Ray,CLOSED,vqa,Organ,"['vhead', '_', '_']",10364
+379,xmlab379/source.jpg,Is the lung normal appearing?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10365
+379,xmlab379/source.jpg,What diseases are included in the picture?,Atelectasis,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10366
+379,xmlab379/source.jpg,Can atelectasis be observed on the lower right lung in this picture?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10367
+379,xmlab379/source.jpg,What color does the right lung show in the picture?,Gray,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10368
+379,xmlab379/source.jpg,How many existing lungs in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10369
+379,xmlab379/source.jpg,What is the effect of the main organ in this picture?,Breathe,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10370
+379,xmlab379/source.jpg,What kind of symptoms will the disease on the lower left of lung bring to the patient?,"Chest tightness, shortness of breath, difficulty breathing, dry cough",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'symptom', 'ktail']",10371
+379,xmlab379/source.jpg,Which organs/organ is part of the circulatory system in this image?,Heart,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'part of', 'circulatory system']",10372
+380,xmlab380/source.jpg,Is this an MRI scan?,No,en,Lung,X-Ray,CLOSED,vqa,Modality,"['vhead', '_', '_']",10373
+380,xmlab380/source.jpg,What is the scanning plane of this image?,Coronal Plane,en,Lung,X-Ray,OPEN,vqa,Plane,"['vhead', '_', '_']",10374
+380,xmlab380/source.jpg,Where does the image represent in the body?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10375
+380,xmlab380/source.jpg,Which side of lung is abnormal in this image?,Right,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10376
+380,xmlab380/source.jpg,Where is the atelectasis?,Lower Right Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10377
+380,xmlab380/source.jpg,Is this a study of the chest?,Yes,en,Lung,X-Ray,CLOSED,vqa,Organ,"['vhead', '_', '_']",10378
+380,xmlab380/source.jpg,What is the main organ in the image?,Lung,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10379
+380,xmlab380/source.jpg,What disease is/are shown on the right of lung?,Atelectasis,en,Lung,X-Ray,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10380
+380,xmlab380/source.jpg,Does the lung look abnormal?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10381
+380,xmlab380/source.jpg,Can atelectasis be observed on the upper left lung in this picture?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10382
+380,xmlab380/source.jpg,What color does the right lung show in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10383
+380,xmlab380/source.jpg,How many lungs are shown in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10384
+380,xmlab380/source.jpg,What is the effect of the center organ in this picture?,Promote blood flow,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10385
+380,xmlab380/source.jpg,How to prevent the occurrence of the disease on the lower right lobe of lung in this image?,"Quit smoking, enhance physical fitness",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'prevent', 'ktail']",10386
+380,xmlab380/source.jpg,Which organs/organ is part of the respiratory system in this image?,Lung,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'part of', 'respiratory system']",10387
+383,xmlab383/source.jpg,What modality is used to take this image?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",10388
+383,xmlab383/source.jpg,Is this a coronal plane?,Yes,en,Lung,X-Ray,CLOSED,vqa,Plane,"['vhead', '_', '_']",10389
+383,xmlab383/source.jpg,Which part do the organs in this image locate from the aspect of the whole body?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10390
+383,xmlab383/source.jpg,Where is the abnormality in this image?,Lower Right Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10391
+383,xmlab383/source.jpg,What part of the lung is the pneumonia located in?,Lower Right Lung,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10392
+383,xmlab383/source.jpg,Which organ system is imaged?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10393
+383,xmlab383/source.jpg,Is this a study of the chest?,Yes,en,Lung,X-Ray,CLOSED,vqa,Organ,"['vhead', '_', '_']",10394
+383,xmlab383/source.jpg,Is/Are there abnormalities in the patient's right lung?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10395
+383,xmlab383/source.jpg,Is this image normal?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10396
+383,xmlab383/source.jpg,Can pneumonia be observed on the lower right lung in this picture?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10397
+383,xmlab383/source.jpg,What color does the left lung show in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10398
+383,xmlab383/source.jpg,How many organs are there in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10399
+383,xmlab383/source.jpg,What is the effect of the main organ in this picture?,Breathe,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10400
+383,xmlab383/source.jpg,What is the main cause of the disease on the lower right of the lung in the picture?,Bacterial infection,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'cause', 'ktail']",10401
+383,xmlab383/source.jpg,Which organs/organ in the picture belong to the respiratory system?,Lung,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'belong to', 'respiratory system']",10402
+391,xmlab391/source.jpg,What type of medical image is this?,X-Ray,en,Lung,X-Ray,OPEN,vqa,Modality,"['vhead', '_', '_']",10403
+391,xmlab391/source.jpg,"Which plane is the image scanned, transverse plane or coronal plane?",Coronal Plane,en,Lung,X-Ray,CLOSED,vqa,Plane,"['vhead', '_', '_']",10404
+391,xmlab391/source.jpg,Which part do the organs in this image locate from the aspect of the whole body?,Chest,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10405
+391,xmlab391/source.jpg,Which part of chest is abnormal in this image?,Heart,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10406
+391,xmlab391/source.jpg,Where is/are the cardiomegaly located in this image?,Heart,en,Lung,X-Ray,OPEN,vqa,Position,"['vhead', '_', '_']",10407
+391,xmlab391/source.jpg,Is this a study of the chest?,Yes,en,Lung,X-Ray,CLOSED,vqa,Organ,"['vhead', '_', '_']",10408
+391,xmlab391/source.jpg,Which organ system is imaged?,Chest,en,Lung,X-Ray,OPEN,vqa,Organ,"['vhead', '_', '_']",10409
+391,xmlab391/source.jpg,Does the lung look abnormal?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10410
+391,xmlab391/source.jpg,Is the lung abnormal?,No,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10411
+391,xmlab391/source.jpg,Can cardiomegaly be observed in this picture?,Yes,en,Lung,X-Ray,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10412
+391,xmlab391/source.jpg,What color does the left lung show in the picture?,Black,en,Lung,X-Ray,OPEN,vqa,Color,"['vhead', '_', '_']",10413
+391,xmlab391/source.jpg,How many organs are there in this image?,2,en,Lung,X-Ray,OPEN,vqa,Quantity,"['vhead', '_', '_']",10414
+391,xmlab391/source.jpg,What is the effect of the center organ in this picture?,Promote blood flow,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10415
+391,xmlab391/source.jpg,How to treat the disease located on the heart in this image?,"Physical therapy, medication",en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'treat', 'ktail']",10416
+391,xmlab391/source.jpg,Which organs/organ in the picture belong to the circulatory system?,Heart,en,Lung,X-Ray,OPEN,kvqa,KG,"['vhead', 'belong to', 'circulatory system']",10417
+394,xmlab394/source.jpg,What imaging modality was used?,CT,en,Brain_Tissue,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10418
+394,xmlab394/source.jpg,Is this sagittal plane?,No,en,Brain_Tissue,CT,CLOSED,vqa,Plane,"['vhead', '_', '_']",10419
+394,xmlab394/source.jpg,Which part do the organs in this image locate from the aspect of the whole body?,Head,en,Brain_Tissue,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10420
+394,xmlab394/source.jpg,Where are the eyes in this image?,Top,en,Brain_Tissue,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10421
+394,xmlab394/source.jpg,What organ system is pictured?,Head,en,Brain_Tissue,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10422
+394,xmlab394/source.jpg,Which organs appear in pairs in this image?,"Temporal Lobe, Eyes",en,Brain_Tissue,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10423
+394,xmlab394/source.jpg,Does the picture contain eyes?,Yes,en,Brain_Tissue,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10424
+394,xmlab394/source.jpg,Does the trachea exist in this picture?,No,en,Brain_Tissue,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10425
+394,xmlab394/source.jpg,What color does the eyes show in the picture?,Gray,en,Brain_Tissue,CT,OPEN,vqa,Color,"['vhead', '_', '_']",10426
+394,xmlab394/source.jpg,What is the largest organ in the picture?,Brain,en,Brain_Tissue,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10427
+394,xmlab394/source.jpg,How many existing parotids in this image?,0,en,Brain_Tissue,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10428
+394,xmlab394/source.jpg,What is the shape of eyes in this image?,Circular,en,Brain_Tissue,CT,OPEN,vqa,Shape,"['vhead', '_', '_']",10429
+394,xmlab394/source.jpg,How much damage will be caused to the body taking such an image?,Much,en,Brain_Tissue,CT,OPEN,kvqa,KG,"['vhead', 'damage', 'ktail']",10430
+394,xmlab394/source.jpg,Which organs/organ in the picture belong to the sensory organs?,Eyes,en,Brain_Tissue,CT,OPEN,kvqa,KG,"['vhead', 'belong to', 'sensory organs']",10431
+394,xmlab394/source.jpg,Do any of the organs in the picture belong to the circulatory system?,No,en,Brain_Tissue,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'circulatory system']",10432
+394,xmlab394/source.jpg,Does the picture contain the organ that could be used for secreting enzymes?,No,en,Brain_Tissue,CT,CLOSED,kvqa,KG,"['vhead', 'be used for', 'secrete enzymes']",10433
+4,xmlab4/source.jpg,What modality is used to take this image?,MRI,en,Abdomen,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10434
+4,xmlab4/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10435
+4,xmlab4/source.jpg,What is the mr weighting in this image?,T2,en,Abdomen,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10436
+4,xmlab4/source.jpg,Does the picture contain liver?,Yes,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10437
+4,xmlab4/source.jpg,Does the picture contain kidney?,No,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10438
+4,xmlab4/source.jpg,Does the picture contain spleen?,No,en,Abdomen,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10439
+404,xmlab404/source.jpg,What modality is used to take this image?,CT,en,Brain_Face,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10440
+404,xmlab404/source.jpg,Is this a coronal section?,No,en,Brain_Face,CT,CLOSED,vqa,Plane,"['vhead', '_', '_']",10441
+404,xmlab404/source.jpg,Which part of the body does this image belong to?,Head,en,Brain_Face,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10442
+404,xmlab404/source.jpg,What organ marks the lower end of the organ system?,Mandible,en,Brain_Face,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10443
+404,xmlab404/source.jpg,Is this a study of the neck?,No,en,Brain_Face,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10444
+404,xmlab404/source.jpg,Does the trachea exist in this picture?,No,en,Brain_Face,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10445
+404,xmlab404/source.jpg,Does the lung exist in this picture?,No,en,Brain_Face,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10446
+404,xmlab404/source.jpg,What color does the brain stem show in the picture?,Gray,en,Brain_Face,CT,OPEN,vqa,Color,"['vhead', '_', '_']",10447
+404,xmlab404/source.jpg,What is the largest organ in the picture?,Brain,en,Brain_Face,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10448
+404,xmlab404/source.jpg,How many existing mandible in this image?,1,en,Brain_Face,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10449
+404,xmlab404/source.jpg,What is the function of the tissue in the center of the organ in this picture?,Control heartbeat and breathing,en,Brain_Face,CT,OPEN,kvqa,KG,"['vhead', 'function', 'ktail']",10450
+404,xmlab404/source.jpg,Which organs/organ in the picture belong to nervous system?,Brain,en,Brain_Face,CT,OPEN,kvqa,KG,"['vhead', 'belong to', 'nervous system']",10451
+404,xmlab404/source.jpg,Does the picture contain the organ which has the effect of sensing light?,No,en,Brain_Face,CT,CLOSED,kvqa,KG,"['vhead', 'effect', 'sense light']",10452
+404,xmlab404/source.jpg,Do any of the organs in the picture belong to the circulatory system?,No,en,Brain_Face,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'circulatory system']",10453
+408,xmlab408/source.jpg,Is this a CT scan?,Yes,en,Brain_Face,CT,CLOSED,vqa,Modality,"['vhead', '_', '_']",10454
+408,xmlab408/source.jpg,"Which plane is the image scanned, transverse plane or coronal plane?",Transverse Plane,en,Brain_Face,CT,CLOSED,vqa,Plane,"['vhead', '_', '_']",10455
+408,xmlab408/source.jpg,Where does the picture show?,Head,en,Brain_Face,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10456
+408,xmlab408/source.jpg,Where is the tooth in this image?,Top,en,Brain_Face,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10457
+408,xmlab408/source.jpg,What organ marks the lower end of the organ system?,Mandible,en,Brain_Face,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10458
+408,xmlab408/source.jpg,Is this a study of the neck?,No,en,Brain_Face,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10459
+408,xmlab408/source.jpg,Is there small bowel in this image?,No,en,Brain_Face,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10460
+408,xmlab408/source.jpg,Does the trachea exist in this picture?,No,en,Brain_Face,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10461
+408,xmlab408/source.jpg,What color does the brain stem show in the picture?,Gray,en,Brain_Face,CT,OPEN,vqa,Color,"['vhead', '_', '_']",10462
+408,xmlab408/source.jpg,What is the largest organ in the picture?,Brain,en,Brain_Face,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10463
+408,xmlab408/source.jpg,How many temporal lobes in this image?,0,en,Brain_Face,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10464
+408,xmlab408/source.jpg,What is the shape of tooth in this image?,U-shaped,en,Brain_Face,CT,OPEN,vqa,Shape,"['vhead', '_', '_']",10465
+408,xmlab408/source.jpg,What is the function of the organ on the top of this image?,"Cutting, chewing, maintaining facial contour and assisting pronunciation",en,Brain_Face,CT,OPEN,kvqa,KG,"['vhead', 'function', 'ktail']",10466
+408,xmlab408/source.jpg,Which organs/organ in the picture belong to the digestive system?,Tooth,en,Brain_Face,CT,OPEN,kvqa,KG,"['vhead', 'belong to', 'digestive system']",10467
+408,xmlab408/source.jpg,Does the picture contain the organ that could be used for digesting food?,No,en,Brain_Face,CT,CLOSED,kvqa,KG,"['vhead', 'be used for', 'digest food']",10468
+408,xmlab408/source.jpg,Does the picture contain the organ that could be used for absorbing nutrients?,No,en,Brain_Face,CT,CLOSED,kvqa,KG,"['vhead', 'be used for', 'absorb nutrients']",10469
+418,xmlab418/source.jpg,Is this an MRI scan?,No,en,Brain_Face,CT,CLOSED,vqa,Modality,"['vhead', '_', '_']",10470
+418,xmlab418/source.jpg,Is this sagittal plane?,No,en,Brain_Face,CT,CLOSED,vqa,Plane,"['vhead', '_', '_']",10471
+418,xmlab418/source.jpg,Which part of the human body is the organ located in the image?,Head,en,Brain_Face,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10472
+418,xmlab418/source.jpg,Is this a study of the chest?,No,en,Brain_Face,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10473
+418,xmlab418/source.jpg,Does the ears exist in this picture?,No,en,Brain_Face,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10474
+418,xmlab418/source.jpg,Does the rectum appear in this picture?,No,en,Brain_Face,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10475
+418,xmlab418/source.jpg,What color does the mandible show in the picture?,White,en,Brain_Face,CT,OPEN,vqa,Color,"['vhead', '_', '_']",10476
+418,xmlab418/source.jpg,What is the largest organ in the picture?,Brain,en,Brain_Face,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10477
+418,xmlab418/source.jpg,Does the picture contain the organ that could receive sound?,No,en,Brain_Face,CT,CLOSED,kvqa,KG,"['vhead', 'could', 'receive sound']",10478
+418,xmlab418/source.jpg,Are there organs in the picture that can promote blood flow?,No,en,Brain_Face,CT,CLOSED,kvqa,KG,"['vhead', 'can', 'promote blood flow']",10479
+42,xmlab42/source.jpg,What modality is used to take this image?,MRI,en,Brain,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10480
+42,xmlab42/source.jpg,Which part of the body does this image belong to?,Brain,en,Brain,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10481
+42,xmlab42/source.jpg,What is the mr weighting in this image?,T2,en,Brain,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10482
+42,xmlab42/source.jpg,What is the main organ in the image?,Brain,en,Brain,MRI,OPEN,vqa,Organ,"['vhead', '_', '_']",10483
+42,xmlab42/source.jpg,What is the largest organ in the picture?,Brain,en,Brain,MRI,OPEN,vqa,Size,"['vhead', '_', '_']",10484
+42,xmlab42/source.jpg,Does the picture contain brian?,Yes,en,Brain,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10485
+42,xmlab42/source.jpg,What diseases are included in the picture?,"Brain Edema, Brain Tumor",en,Brain,MRI,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10486
+42,xmlab42/source.jpg,Does the brain look abnormal?,Yes,en,Brain,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10487
+42,xmlab42/source.jpg,Where is/are the abnormality located?,Left,en,Brain,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10488
+420,xmlab420/source.jpg,Is this a CT?,Yes,en,Neck,CT,CLOSED,vqa,Modality,"['vhead', '_', '_']",10489
+420,xmlab420/source.jpg,Is this sagittal plane?,No,en,Neck,CT,CLOSED,vqa,Plane,"['vhead', '_', '_']",10490
+420,xmlab420/source.jpg,Which part of the human body is the organ located in the image?,Neck,en,Neck,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10491
+420,xmlab420/source.jpg,Where is the spinal cord in this image?,Bottom,en,Neck,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10492
+420,xmlab420/source.jpg,What organ system is pictured?,Neck,en,Neck,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10493
+420,xmlab420/source.jpg,Is this a study of the neck?,Yes,en,Neck,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10494
+420,xmlab420/source.jpg,Does the picture contain heart?,No,en,Neck,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10495
+420,xmlab420/source.jpg,Does the temporal lobe appear in this image?,No,en,Neck,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10496
+420,xmlab420/source.jpg,What color does the larynx show in the picture?,Black,en,Neck,CT,OPEN,vqa,Color,"['vhead', '_', '_']",10497
+420,xmlab420/source.jpg,What is the shape of spinal cord in this image?,Irregular,en,Neck,CT,OPEN,vqa,Shape,"['vhead', '_', '_']",10498
+420,xmlab420/source.jpg,How much damage will be caused to the body taking such an image?,Much,en,Neck,CT,OPEN,kvqa,KG,"['vhead', 'damage', 'ktail']",10499
+420,xmlab420/source.jpg,Which organs/organ in the picture belong to the nervous system?,Spinal Cord,en,Neck,CT,OPEN,kvqa,KG,"['vhead', 'belong to', 'nervous system']",10500
+420,xmlab420/source.jpg,Do any of the organs in the picture belong to the respiratory system?,Yes,en,Neck,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'respiratory system']",10501
+420,xmlab420/source.jpg,Are there organs in the picture that can deliver food?,Yes,en,Neck,CT,CLOSED,kvqa,KG,"['vhead', 'can', 'deliver food']",10502
+424,xmlab424/source.jpg,Is this a CT scan?,Yes,en,Neck,CT,CLOSED,vqa,Modality,"['vhead', '_', '_']",10503
+424,xmlab424/source.jpg,"Which plane is the image scanned, transverse plane or coronal plane?",Transverse Plane,en,Neck,CT,CLOSED,vqa,Plane,"['vhead', '_', '_']",10504
+424,xmlab424/source.jpg,Where does the image represent in the body?,Neck,en,Neck,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10505
+424,xmlab424/source.jpg,Which is larynx in this image?,Black Hollow,en,Neck,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10506
+424,xmlab424/source.jpg,What organ is on the bottom of the image?,Spinal Cord,en,Neck,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10507
+424,xmlab424/source.jpg,Does the picture contain spinal cord?,Yes,en,Neck,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10508
+424,xmlab424/source.jpg,Is there small bowel in this image?,No,en,Neck,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10509
+424,xmlab424/source.jpg,What color does the larynx show in the picture?,Black,en,Neck,CT,OPEN,vqa,Color,"['vhead', '_', '_']",10510
+424,xmlab424/source.jpg,What is the shape of larynx about this patient?,Irregular,en,Neck,CT,OPEN,vqa,Shape,"['vhead', '_', '_']",10511
+424,xmlab424/source.jpg,What role does the black hollow tissue play in the human body?,"Ventilation, pronunciation",en,Neck,CT,OPEN,kvqa,KG,"['vhead', 'role', 'ktail']",10512
+424,xmlab424/source.jpg,Which organs/organ in the picture belong to the nervous system?,Spinal Cord,en,Neck,CT,OPEN,kvqa,KG,"['vhead', 'belong to', 'nervous system']",10513
+424,xmlab424/source.jpg,Does the picture contain the organ that could be used for discharging waste?,No,en,Neck,CT,CLOSED,kvqa,KG,"['vhead', 'be used for', 'discharge waste']",10514
+424,xmlab424/source.jpg,Are there organs in the picture that can discharge waste?,No,en,Neck,CT,CLOSED,kvqa,KG,"['vhead', 'can', 'discharge waste']",10515
+426,xmlab426/source.jpg,Is this a CT scan?,Yes,en,Neck,CT,CLOSED,vqa,Modality,"['vhead', '_', '_']",10516
+426,xmlab426/source.jpg,What scanning plane does this image belong to?,Transverse Plane,en,Neck,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10517
+426,xmlab426/source.jpg,Do the organs in the image exist in the neck?,Yes,en,Neck,CT,CLOSED,vqa,Position,"['vhead', '_', '_']",10518
+426,xmlab426/source.jpg,Which is larynx in this image?,Black Hollow,en,Neck,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10519
+426,xmlab426/source.jpg,Does the spinal cord appear in this image?,Yes,en,Neck,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10520
+426,xmlab426/source.jpg,Is there an esophagus in this image?,No,en,Neck,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10521
+426,xmlab426/source.jpg,Does the humerus head exist in this picture?,No,en,Neck,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10522
+426,xmlab426/source.jpg,What color does the larynx show in the picture?,Black,en,Neck,CT,OPEN,vqa,Color,"['vhead', '_', '_']",10523
+426,xmlab426/source.jpg,What is the shape of larynx about this patient?,Oval,en,Neck,CT,OPEN,vqa,Shape,"['vhead', '_', '_']",10524
+426,xmlab426/source.jpg,What is the effect of the black hollow tissue in this picture?,"Ventilation, pronunciation",en,Neck,CT,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10525
+426,xmlab426/source.jpg,Which organs/organ in the picture belong to the nervous system?,Spinal Cord,en,Neck,CT,OPEN,kvqa,KG,"['vhead', 'belong to', 'nervous system']",10526
+426,xmlab426/source.jpg,Are there organs in the picture that can discharge waste?,No,en,Neck,CT,CLOSED,kvqa,KG,"['vhead', 'can', 'discharge waste']",10527
+426,xmlab426/source.jpg,Do any of the organs in the picture belong to the lymphatic system?,No,en,Neck,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'lymphatic system']",10528
+448,xmlab448/source.jpg,What modality is shown in this image?,MRI,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10529
+448,xmlab448/source.jpg,What is the mr weighting in this image?,T2,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10530
+448,xmlab448/source.jpg,Is this a transverse plane?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Plane,"['vhead', '_', '_']",10531
+448,xmlab448/source.jpg,Which part of the body does this image belong to?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10532
+448,xmlab448/source.jpg,Where is the brain edema?,Left Lobe,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10533
+448,xmlab448/source.jpg,Is this a study of the chest?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10534
+448,xmlab448/source.jpg,What disease is/are shown on the left of brain?,Brain Edema,en,Brain_Tissue,MRI,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10535
+448,xmlab448/source.jpg,How to prevent the occurrence of the disease on the left lobe of brain in this image?,"Treat brain diseases promptly, keep healthy",en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'prevent', 'ktail']",10536
+455,xmlab455/source.jpg,Is this a CT scan?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10537
+455,xmlab455/source.jpg,What is the mr weighting in this image?,T2,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10538
+455,xmlab455/source.jpg,"Which plane is the image scanned, transverse plane or coronal plane?",Transverse Plane,en,Brain_Tissue,MRI,CLOSED,vqa,Plane,"['vhead', '_', '_']",10539
+455,xmlab455/source.jpg,Do the organs in the image exist in the head?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Position,"['vhead', '_', '_']",10540
+455,xmlab455/source.jpg,Where are the abnormalities in this image?,Upper Left Lobe,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10541
+455,xmlab455/source.jpg,What is the organ system visualized?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Organ,"['vhead', '_', '_']",10542
+455,xmlab455/source.jpg,Can brain edema be observed in the picture?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10543
+455,xmlab455/source.jpg,What kind of symptoms will the disease on the upper left lobe of brain in the picture bring to the patient?,"Visual impairment, vomiting, tinnitus, increased intracranial pressure",en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'symptom', 'ktail']",10544
+457,xmlab457/source.jpg,What type of medical image is this?,MRI,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10545
+457,xmlab457/source.jpg,What type of MRI is shown in this image?,T2,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10546
+457,xmlab457/source.jpg,Is this sagittal plane?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Plane,"['vhead', '_', '_']",10547
+457,xmlab457/source.jpg,Which part of the human body is the organ located in the image?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10548
+457,xmlab457/source.jpg,Where is the brain edema located?,Left Lobe,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10549
+457,xmlab457/source.jpg,What is the organ system visualized?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Organ,"['vhead', '_', '_']",10550
+457,xmlab457/source.jpg,What disease is/are shown on the left of brain?,Brain Edema,en,Brain_Tissue,MRI,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10551
+457,xmlab457/source.jpg,How many kinds of abnormalities are there in this image?,1,en,Brain_Tissue,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",10552
+457,xmlab457/source.jpg,What kind of symptoms will the disease on the left lobe of brain in the picture bring to the patient?,"Encephalomalacia, local edema, confusion, increased intracranial pressure",en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'symptom', 'ktail']",10553
+458,xmlab458/source.jpg,"Which type of modality is shown about this image, MRI, CT or X-Ray?",MRI,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10554
+458,xmlab458/source.jpg,What is the mr weighting in this image?,T2,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10555
+458,xmlab458/source.jpg,"Which plane is the image scanned, transverse plane or coronal plane?",Transverse Plane,en,Brain_Tissue,MRI,CLOSED,vqa,Plane,"['vhead', '_', '_']",10556
+458,xmlab458/source.jpg,Which part of the body does this image belong to?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10557
+458,xmlab458/source.jpg,Which hemisphere is normal?,Right,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10558
+458,xmlab458/source.jpg,Is this a study of the head?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10559
+458,xmlab458/source.jpg,What diseases are included in the picture?,"Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",en,Brain_Tissue,MRI,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10560
+458,xmlab458/source.jpg,How many kinds of abnormalities are there in this image?,3,en,Brain_Tissue,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",10561
+458,xmlab458/source.jpg,How to prevent the occurrence of the disease on the left lobe of brain in this image?,"Pay attention to dietary hygiene, strengthen physical fitness and avoid brain trauma",en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'prevent', 'ktail']",10562
+46,xmlab46/source.jpg,What modality is used to take this image?,MRI,en,Brain,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10563
+46,xmlab46/source.jpg,Which part of the body does this image belong to?,Brain,en,Brain,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10564
+46,xmlab46/source.jpg,What is the mr weighting in this image?,T2,en,Brain,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10565
+46,xmlab46/source.jpg,What is the main organ in the image?,Brain,en,Brain,MRI,OPEN,vqa,Organ,"['vhead', '_', '_']",10566
+46,xmlab46/source.jpg,What is the largest organ in the picture?,Brain,en,Brain,MRI,OPEN,vqa,Size,"['vhead', '_', '_']",10567
+46,xmlab46/source.jpg,Does the picture contain brian?,Yes,en,Brain,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10568
+46,xmlab46/source.jpg,What diseases are included in the picture?,"Brain Edema, Brain Tumor",en,Brain,MRI,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10569
+46,xmlab46/source.jpg,Is the brain healthy?,No,en,Brain,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10570
+46,xmlab46/source.jpg,Where is/are the abnormality located?,Left,en,Brain,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10571
+460,xmlab460/source.jpg,Is this image taken via MRI?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10572
+460,xmlab460/source.jpg,Is this an MRI image with T1 weighted?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10573
+460,xmlab460/source.jpg,Is this a coronal plane?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Plane,"['vhead', '_', '_']",10574
+460,xmlab460/source.jpg,Which part of the body does this image belong to?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10575
+460,xmlab460/source.jpg,"Which lobe is abnormal,left or right?",Right,en,Brain_Tissue,MRI,CLOSED,vqa,Position,"['vhead', '_', '_']",10576
+460,xmlab460/source.jpg,What organ system is pictured?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Organ,"['vhead', '_', '_']",10577
+460,xmlab460/source.jpg,What disease is/are shown on the right of brain?,"Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",en,Brain_Tissue,MRI,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10578
+460,xmlab460/source.jpg,Is the abnormality hyperdense or hypodense?,Hyperdense,en,Brain_Tissue,MRI,CLOSED,vqa,Color,"['vhead', '_', '_']",10579
+460,xmlab460/source.jpg,How many kinds of abnormalities are there in this image?,3,en,Brain_Tissue,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",10580
+460,xmlab460/source.jpg,What is the main cause of the disease on the right lobe of brain in this picture?,"Brain embryonic tissue dysplasia, genetic factors, chemical factors",en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'cause', 'ktail']",10581
+462,xmlab462/source.jpg,What modality is used to take this image?,MRI,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10582
+462,xmlab462/source.jpg,Is this a T1 weighted or T2 weighted MRI image?,T2,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10583
+462,xmlab462/source.jpg,Is this a coronal plane?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Plane,"['vhead', '_', '_']",10584
+462,xmlab462/source.jpg,Where does the picture show?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10585
+462,xmlab462/source.jpg,Where is the brain tumor?,Right Lobe,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10586
+462,xmlab462/source.jpg,Is this a study of the head?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10587
+462,xmlab462/source.jpg,What disease is/are shown on the right of brain?,"Brain Enhancing Tumor, Brain Edema, Brain Non-enhancing Tumor",en,Brain_Tissue,MRI,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10588
+462,xmlab462/source.jpg,How many kinds of abnormalities are there in this image?,3,en,Brain_Tissue,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",10589
+462,xmlab462/source.jpg,What is the main cause of the disease on the right lobe of brain in this picture?,"Brain embryonic tissue dysplasia, genetic factors, chemical factors",en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'cause', 'ktail']",10590
+465,xmlab465/source.jpg,Is this image taken via X-Ray?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10591
+465,xmlab465/source.jpg,Is this a T1 weighted or T2 weighted MRI image?,T2,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10592
+465,xmlab465/source.jpg,What scanning plane does this image belong to?,Transverse Plane,en,Brain_Tissue,MRI,OPEN,vqa,Plane,"['vhead', '_', '_']",10593
+465,xmlab465/source.jpg,Which part of the human body is the organ located in the image?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10594
+465,xmlab465/source.jpg,Where are the abnormalities in this image?,Top,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10595
+465,xmlab465/source.jpg,What is the organ system visualized?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Organ,"['vhead', '_', '_']",10596
+465,xmlab465/source.jpg,Is/Are there abnormalities in the patient's left brain lobe?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10597
+465,xmlab465/source.jpg,How many kinds of abnormalities are there in this image?,3,en,Brain_Tissue,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",10598
+465,xmlab465/source.jpg,How much damage will be caused to the body taking such an image?,Unknown,en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'damage', 'ktail']",10599
+476,xmlab476/source.jpg,How was this image taken?,MRI,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10600
+476,xmlab476/source.jpg,Is this an MRI image with T1 weighted?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10601
+476,xmlab476/source.jpg,"Which plane is the image scanned, transverse plane or coronal plane?",Transverse Plane,en,Brain_Tissue,MRI,CLOSED,vqa,Plane,"['vhead', '_', '_']",10602
+476,xmlab476/source.jpg,Which part of the body does this image belong to?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10603
+476,xmlab476/source.jpg,"Which lobe is abnormal,left or right?",Left,en,Brain_Tissue,MRI,CLOSED,vqa,Position,"['vhead', '_', '_']",10604
+476,xmlab476/source.jpg,Is this a study of the neck?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10605
+476,xmlab476/source.jpg,Is/Are there abnormalities in the patient's left brain lobe?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10606
+476,xmlab476/source.jpg,How many kinds of abnormalities are there in this image?,2,en,Brain_Tissue,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",10607
+476,xmlab476/source.jpg,How to treat the most severe disease in this image?,"Medical treatment, supportive treatment, surgical treatment",en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'treat', 'ktail']",10608
+478,xmlab478/source.jpg,What modality is used to take this image?,MRI,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10609
+478,xmlab478/source.jpg,Is this a T1 weighted or T2 weighted MRI image?,T1,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10610
+478,xmlab478/source.jpg,Is this a coronal section?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Plane,"['vhead', '_', '_']",10611
+478,xmlab478/source.jpg,Which part of the body does this image belong to?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10612
+478,xmlab478/source.jpg,Where are the abnormalities in this image?,Upper Right Lobe,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10613
+478,xmlab478/source.jpg,Is this a study of the head?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10614
+478,xmlab478/source.jpg,What disease is/are shown on the right of brain?,"Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",en,Brain_Tissue,MRI,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10615
+478,xmlab478/source.jpg,What density is the abnormality?,Hyperdense,en,Brain_Tissue,MRI,OPEN,vqa,Color,"['vhead', '_', '_']",10616
+478,xmlab478/source.jpg,How to prevent the occurrence of the disease on the right lobe of brain in this image?,"Pay attention to dietary hygiene, strengthen physical fitness and avoid brain trauma",en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'prevent', 'ktail']",10617
+482,xmlab482/source.jpg,Is this image taken via X-Ray?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10618
+482,xmlab482/source.jpg,Is this a T1 weighted or T2 weighted MRI image?,T1,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10619
+482,xmlab482/source.jpg,Is this a coronal section?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Plane,"['vhead', '_', '_']",10620
+482,xmlab482/source.jpg,Which part of the human body is the organ located in the image?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10621
+482,xmlab482/source.jpg,"Which hemisphere is abnormal,left or right?",Right,en,Brain_Tissue,MRI,CLOSED,vqa,Position,"['vhead', '_', '_']",10622
+482,xmlab482/source.jpg,What is the organ system visualized?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Organ,"['vhead', '_', '_']",10623
+482,xmlab482/source.jpg,What disease is/are shown on the right of brain?,"Brain Edema, Brain Non-enhancing Tumor",en,Brain_Tissue,MRI,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10624
+482,xmlab482/source.jpg,What kind of symptoms will the disease on the right lobe of brain in the picture bring to the patient?,"Visual impairment, vomiting, tinnitus, increased intracranial pressure",en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'symptom', 'ktail']",10625
+488,xmlab488/source.jpg,What modality is shown in this image?,MRI,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10626
+488,xmlab488/source.jpg,"Which kind of weighting is this image generated with, t1 or t2?",T1,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10627
+488,xmlab488/source.jpg,What is the scanning plane of this image?,Transverse Plane,en,Brain_Tissue,MRI,OPEN,vqa,Plane,"['vhead', '_', '_']",10628
+488,xmlab488/source.jpg,Do the organs in the image exist in the head?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Position,"['vhead', '_', '_']",10629
+488,xmlab488/source.jpg,Where are the abnormalities in this image?,Upper Right Lobe,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10630
+488,xmlab488/source.jpg,Is this a study of the chest?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10631
+488,xmlab488/source.jpg,What disease is/are shown on the right of brain?,"Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",en,Brain_Tissue,MRI,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10632
+488,xmlab488/source.jpg,What density is the brain enhancing tumor in this image?,Hyperdense,en,Brain_Tissue,MRI,OPEN,vqa,Color,"['vhead', '_', '_']",10633
+488,xmlab488/source.jpg,How many kinds of abnormalities are there in this image?,3,en,Brain_Tissue,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",10634
+488,xmlab488/source.jpg,How much damage will be caused to the body taking such an image?,Unknown,en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'damage', 'ktail']",10635
+499,xmlab499/source.jpg,"Which type of modality is shown about this image, MRI, CT or X-Ray?",MRI,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10636
+499,xmlab499/source.jpg,What type of MRI is shown in this image?,T1,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10637
+499,xmlab499/source.jpg,"Which plane is the image scanned, transverse plane or coronal plane?",Transverse Plane,en,Brain_Tissue,MRI,CLOSED,vqa,Plane,"['vhead', '_', '_']",10638
+499,xmlab499/source.jpg,Which part of the body does this image belong to?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10639
+499,xmlab499/source.jpg,Which hemisphere is normal?,Right,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10640
+499,xmlab499/source.jpg,Is this a study of the pelvic cavity?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10641
+499,xmlab499/source.jpg,Is the brain abnormal?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10642
+499,xmlab499/source.jpg,What is the main cause of the disease on the left lobe of brain in this picture?,"Brain embryonic tissue dysplasia, genetic factors, chemical factors",en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'cause', 'ktail']",10643
+503,xmlab503/source.jpg,"Which type of modality is shown about this image, MRI, CT or X-Ray?",MRI,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10644
+503,xmlab503/source.jpg,What type of MRI is shown in this image?,T1,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10645
+503,xmlab503/source.jpg,What is the scanning plane of this image?,Transverse Plane,en,Brain_Tissue,MRI,OPEN,vqa,Plane,"['vhead', '_', '_']",10646
+503,xmlab503/source.jpg,Do the organs in the image exist in the head?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Position,"['vhead', '_', '_']",10647
+503,xmlab503/source.jpg,"Which hemisphere is abnormal,left or right?",Left,en,Brain_Tissue,MRI,CLOSED,vqa,Position,"['vhead', '_', '_']",10648
+503,xmlab503/source.jpg,Is this a study of the head?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10649
+503,xmlab503/source.jpg,Is there a brain tumor?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10650
+503,xmlab503/source.jpg,How many kinds of abnormalities are there in this image?,3,en,Brain_Tissue,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",10651
+503,xmlab503/source.jpg,How much damage will be caused to the body taking such an image?,Unknown,en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'damage', 'ktail']",10652
+505,xmlab505/source.jpg,What imaging modality was used?,MRI,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10653
+505,xmlab505/source.jpg,Is this an MRI image with T2 weighted?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10654
+505,xmlab505/source.jpg,Is this a transverse section?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Plane,"['vhead', '_', '_']",10655
+505,xmlab505/source.jpg,Where does the picture show?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10656
+505,xmlab505/source.jpg,"Which lobe is abnormal,left or right?",Right,en,Brain_Tissue,MRI,CLOSED,vqa,Position,"['vhead', '_', '_']",10657
+505,xmlab505/source.jpg,Is this a study of the head?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10658
+505,xmlab505/source.jpg,Is/Are there abnormalities in the patient's right brain lobe?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10659
+505,xmlab505/source.jpg,How many kinds of abnormalities are there in this image?,3,en,Brain_Tissue,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",10660
+505,xmlab505/source.jpg,How to treat the most severe disease in this image?,"Medical treatment, supportive treatment, surgical treatment",en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'treat', 'ktail']",10661
+510,xmlab510/source.jpg,"Which type of modality is shown about this image, MRI, CT or X-Ray?",MRI,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10662
+510,xmlab510/source.jpg,Is this an MRI image with T1 weighted?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10663
+510,xmlab510/source.jpg,Is this a transverse plane?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Plane,"['vhead', '_', '_']",10664
+510,xmlab510/source.jpg,Which part do the organs in this image locate from the aspect of the whole body?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10665
+510,xmlab510/source.jpg,What organ system is primarily present in this image?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Organ,"['vhead', '_', '_']",10666
+510,xmlab510/source.jpg,Is the brain healthy?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10667
+510,xmlab510/source.jpg,How many kinds of abnormalities are there in this image?,0,en,Brain_Tissue,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",10668
+517,xmlab517/source.jpg,What modality is used to take this image?,MRI,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10669
+517,xmlab517/source.jpg,What type of MRI is shown in this image?,T1,en,Brain_Tissue,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10670
+517,xmlab517/source.jpg,Is this a transverse section?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Plane,"['vhead', '_', '_']",10671
+517,xmlab517/source.jpg,Do the organs in the image exist in the head?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Position,"['vhead', '_', '_']",10672
+517,xmlab517/source.jpg,"Which hemisphere is abnormal,left or right?",Right,en,Brain_Tissue,MRI,CLOSED,vqa,Position,"['vhead', '_', '_']",10673
+517,xmlab517/source.jpg,Is this a study of the head?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10674
+517,xmlab517/source.jpg,Can brain edema be observed in the picture?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10675
+517,xmlab517/source.jpg,How much damage will be caused to the body taking such an image?,Unknown,en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'damage', 'ktail']",10676
+518,xmlab518/source.jpg,Is this an MRI?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10677
+518,xmlab518/source.jpg,Is this an MRI image with T1 weighted?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10678
+518,xmlab518/source.jpg,What scanning plane does this image belong to?,Transverse Plane,en,Brain_Tissue,MRI,OPEN,vqa,Plane,"['vhead', '_', '_']",10679
+518,xmlab518/source.jpg,Which part of the human body is the organ located in the image?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10680
+518,xmlab518/source.jpg,Where is the brain edema located?,Lower Right Lobe,en,Brain_Tissue,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10681
+518,xmlab518/source.jpg,Which organ system is imaged?,Head,en,Brain_Tissue,MRI,OPEN,vqa,Organ,"['vhead', '_', '_']",10682
+518,xmlab518/source.jpg,What diseases are included in the picture?,"Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",en,Brain_Tissue,MRI,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10683
+518,xmlab518/source.jpg,How many kinds of abnormalities are there in this image?,3,en,Brain_Tissue,MRI,OPEN,vqa,Quantity,"['vhead', '_', '_']",10684
+518,xmlab518/source.jpg,What is the main cause of the disease on the right lobe of brain in this picture?,"Brain embryonic tissue dysplasia, genetic factors, chemical factors",en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'cause', 'ktail']",10685
+522,xmlab522/source.jpg,Is this a CT?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10686
+522,xmlab522/source.jpg,Is this an MRI image with T2 weighted?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Modality,"['vhead', '_', '_']",10687
+522,xmlab522/source.jpg,What is the scanning plane of this image?,Transverse Plane,en,Brain_Tissue,MRI,OPEN,vqa,Plane,"['vhead', '_', '_']",10688
+522,xmlab522/source.jpg,Do the organs in the image exist in the head?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Position,"['vhead', '_', '_']",10689
+522,xmlab522/source.jpg,"Which hemisphere is abnormal,left or right?",Right,en,Brain_Tissue,MRI,CLOSED,vqa,Position,"['vhead', '_', '_']",10690
+522,xmlab522/source.jpg,Is this a study of the chest?,No,en,Brain_Tissue,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10691
+522,xmlab522/source.jpg,Does the patient have brain tumor?,Yes,en,Brain_Tissue,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10692
+522,xmlab522/source.jpg,Is brain tumor white or gray relative to other tissues?,White,en,Brain_Tissue,MRI,CLOSED,vqa,Color,"['vhead', '_', '_']",10693
+522,xmlab522/source.jpg,What kind of symptoms will the disease on the upper right lobe of brain in the picture bring to the patient?,"Visual impairment, vomiting, tinnitus, increased intracranial pressure",en,Brain_Tissue,MRI,OPEN,kvqa,KG,"['vhead', 'symptom', 'ktail']",10694
+536,xmlab536/source.jpg,Which part of the human body is the organ located in the image?,Abdomen,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10695
+536,xmlab536/source.jpg,Which is the kidney in this image?,Symmetrical to the bottom spine,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10696
+536,xmlab536/source.jpg,What organ system is pictured?,Abdomen,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10697
+536,xmlab536/source.jpg,Are/Is there kidneys in the picture?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10698
+536,xmlab536/source.jpg,Does the temporal lobe appear in this image?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10699
+536,xmlab536/source.jpg,"Which is the biggest in this image,spleen,left kidney or liver?",Liver,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10700
+536,xmlab536/source.jpg,How many lungs have existed in this image?,0,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10701
+536,xmlab536/source.jpg,What is the effect of the organ on the left of this picture?,"Biotransformation, detoxification",en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10702
+536,xmlab536/source.jpg,Which organs/organ is part of the digestive system in this image?,"Colon, Small Bowel",en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'part of', 'digestive system']",10703
+536,xmlab536/source.jpg,Which organs/organ in the picture belong to the digestive system?,"Colon, Small Bowel",en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'belong to', 'digestive system']",10704
+536,xmlab536/source.jpg,Does the picture contain the organ that could be used for discharging waste?,Yes,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'be used for', 'discharge waste']",10705
+536,xmlab536/source.jpg,Are there organs in the picture that can promote blood flow?,No,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'can', 'promote blood flow']",10706
+540,xmlab540/source.jpg,In what plane is this image scanned?,Transverse Plane,en,Abdomen,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10707
+540,xmlab540/source.jpg,Where does the image represent in the body?,Abdomen,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10708
+540,xmlab540/source.jpg,Is this a study of the abdomen?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10709
+540,xmlab540/source.jpg,Does the stomach appear in the image?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10710
+540,xmlab540/source.jpg,Does the larynx appear in the image?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10711
+540,xmlab540/source.jpg,How many existing kidneys in this image?,1,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10712
+540,xmlab540/source.jpg,Which organs/organ is part of the urinary system in this image?,Kidney,en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'part of', 'urinary system']",10713
+540,xmlab540/source.jpg,Do any of the organs in the picture belong to the circulatory system?,No,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'circulatory system']",10714
+540,xmlab540/source.jpg,Do any of the organs in the picture belong to the urinary system?,Yes,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'urinary system']",10715
+544,xmlab544/source.jpg,What type of medical image is this?,CT,en,Abdomen,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10716
+544,xmlab544/source.jpg,Is this a coronal plane?,No,en,Abdomen,CT,CLOSED,vqa,Plane,"['vhead', '_', '_']",10717
+544,xmlab544/source.jpg,Where is the spinal cord in this image?,Bottom,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10718
+544,xmlab544/source.jpg,Is this a study of the abdomen?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10719
+544,xmlab544/source.jpg,Does the larynx appear in the image?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10720
+544,xmlab544/source.jpg,Does the picture contain bladder?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10721
+544,xmlab544/source.jpg,"Which is bigger in this image,colon or liver?",Liver,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10722
+544,xmlab544/source.jpg,How many organs are there in this image?,6,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10723
+544,xmlab544/source.jpg,What is the effect of the black organ on the lower right of this picture?,Breathe,en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10724
+544,xmlab544/source.jpg,Which organs/organ in the picture belong to the respiratory system?,Lung,en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'belong to', 'respiratory system']",10725
+544,xmlab544/source.jpg,Are there organs in the picture that can secrete enzymes?,No,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'can', 'secrete enzymes']",10726
+544,xmlab544/source.jpg,Do any of the organs in the picture belong to the nervous system?,Yes,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'nervous system']",10727
+546,xmlab546/source.jpg,In what plane is this image scanned?,Transverse Plane,en,Abdomen,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10728
+546,xmlab546/source.jpg,"Where is the spleen in this image, right or lower right?",Lower Right,en,Abdomen,CT,CLOSED,vqa,Position,"['vhead', '_', '_']",10729
+546,xmlab546/source.jpg,What is the organ system visualized?,Abdomen,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10730
+546,xmlab546/source.jpg,Does the picture contain duodenum?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10731
+546,xmlab546/source.jpg,Does the picture contain colon?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10732
+546,xmlab546/source.jpg,"Which is smaller in this image,liver or left lung?",Left Lung,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10733
+546,xmlab546/source.jpg,How many existing heart in this image?,0,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10734
+546,xmlab546/source.jpg,What is the effect of the organ on the top of this image?,"Biotransformation, detoxification",en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10735
+546,xmlab546/source.jpg,Which organs/organ in the picture belong to the urinary system?,Kidney,en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'belong to', 'urinary system']",10736
+546,xmlab546/source.jpg,Which organs/organ in the picture belong to the nervous system?,Spinal cord,en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'belong to', 'nervous system']",10737
+546,xmlab546/source.jpg,Does the picture contain the organ that could promote blood flow?,No,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'could', 'promote blood flow']",10738
+546,xmlab546/source.jpg,Do any of the organs in the picture belong to the digestive system?,Yes,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'digestive system']",10739
+552,xmlab552/source.jpg,Which part of the body does this image belong to?,Abdomen,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10740
+552,xmlab552/source.jpg,Where is the small bowel in this image?,Top,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10741
+552,xmlab552/source.jpg,What organ is the gray part on the right of the image?,Small Bowel,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10742
+552,xmlab552/source.jpg,Does the picture contain colon?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10743
+552,xmlab552/source.jpg,Are/Is there kidneys in the picture?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10744
+552,xmlab552/source.jpg,"Which is bigger in this image, small bowel or kidney?",Small bowel,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10745
+552,xmlab552/source.jpg,How many organs are there in this image?,3,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10746
+552,xmlab552/source.jpg,What is the shape of spinal cord in this image?,Circular,en,Abdomen,CT,OPEN,vqa,Shape,"['vhead', '_', '_']",10747
+552,xmlab552/source.jpg,Which organs/organ is part of the nervous system in this image?,Spinal cord,en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'part of', 'nervous system']",10748
+552,xmlab552/source.jpg,Are there organs in the picture that can detoxicate?,No,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'can', 'detoxicate']",10749
+552,xmlab552/source.jpg,Does the picture contain the tissue that is related with remembering things?,No,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'could', 'remember things']",10750
+555,xmlab555/source.jpg,Do the organs in the image exist in the abdomen?,Yes,en,Abdomen,CT,CLOSED,vqa,Position,"['vhead', '_', '_']",10751
+555,xmlab555/source.jpg,"Where is the left kidney in this image, right or lower right?",Lower Right,en,Abdomen,CT,CLOSED,vqa,Position,"['vhead', '_', '_']",10752
+555,xmlab555/source.jpg,What is the leftmost organ in this image?,Small Bowel,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10753
+555,xmlab555/source.jpg,Does the temporal lobe appear in this image?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10754
+555,xmlab555/source.jpg,Does the ears exist in this picture?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10755
+555,xmlab555/source.jpg,"Which is smaller in this image,kidney or spinal cord?",Spinal cord,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10756
+555,xmlab555/source.jpg,How many kidneys have existed in this image?,2,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10757
+555,xmlab555/source.jpg,What is the shape of left kidney in the picture?,Oval,en,Abdomen,CT,OPEN,vqa,Shape,"['vhead', '_', '_']",10758
+555,xmlab555/source.jpg,How much damage will be caused to the body taking such an image?,Much,en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'damage', 'ktail']",10759
+555,xmlab555/source.jpg,Do any of the organs in the picture belong to the lymphatic system?,No,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'lymphatic system']",10760
+555,xmlab555/source.jpg,Does the picture contain the organ that could be used for discharging waste?,Yes,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'be used for', 'discharge waste']",10761
+563,xmlab563/source.jpg,Where is the duodenum existing in this image?,Center,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10762
+563,xmlab563/source.jpg,What is the organ system visualized?,Abdomen,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10763
+563,xmlab563/source.jpg,Does the picture contain colon?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10764
+563,xmlab563/source.jpg,Does the picture contain bladder?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10765
+563,xmlab563/source.jpg,"Which is smaller in this image,liver or right kidney?",Right Kidney,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10766
+563,xmlab563/source.jpg,How many existing heart in this image?,0,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10767
+563,xmlab563/source.jpg,What is the shape of spinal cord in this image?,Circular,en,Abdomen,CT,OPEN,vqa,Shape,"['vhead', '_', '_']",10768
+563,xmlab563/source.jpg,What is the function of the organ on the top of this image?,"Absorb nutrients, secrete enzymes, digest food",en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'function', 'ktail']",10769
+563,xmlab563/source.jpg,Which organs/organ is part of the urinary system in this image?,Kidney,en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'part of', 'urinary system']",10770
+563,xmlab563/source.jpg,Do any of the organs in the picture belong to the urinary system?,Yes,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'urinary system']",10771
+563,xmlab563/source.jpg,Does the picture contain the organ that could receive sound?,No,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'could', 'receive sound']",10772
+566,xmlab566/source.jpg,What imaging modality was used?,CT,en,Abdomen,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10773
+566,xmlab566/source.jpg,Where is the spleen in this image?,Right,en,Abdomen,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10774
+566,xmlab566/source.jpg,What is the organ on the top of the body in this image?,Small Bowel,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10775
+566,xmlab566/source.jpg,Does the picture contain bladder?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10776
+566,xmlab566/source.jpg,Are/Is there kidneys in the picture?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10777
+566,xmlab566/source.jpg,"Which is bigger in this image,small bowel or liver?",Small Bowel,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10778
+566,xmlab566/source.jpg,How many organs are there in this image?,6,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10779
+566,xmlab566/source.jpg,What is the effect of the gray organ on the left of this picture?,"Biotransformation, detoxification",en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10780
+566,xmlab566/source.jpg,Which organs/organ in the picture belong to the nervous system?,Spinal cord,en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'belong to', 'nervous system']",10781
+566,xmlab566/source.jpg,Are there organs in the picture that can discharge waste?,Yes,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'can', 'discharge waste']",10782
+566,xmlab566/source.jpg,Are there any organs used for breathing in this image?,No,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'be used for', 'breathe']",10783
+569,xmlab569/source.jpg,What modality is shown in this image?,CT,en,Abdomen,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10784
+569,xmlab569/source.jpg,Do the organs in the image exist in the chest?,No,en,Abdomen,CT,CLOSED,vqa,Position,"['vhead', '_', '_']",10785
+569,xmlab569/source.jpg,"Where is the spleen in this image, right or lower right?",Right,en,Abdomen,CT,CLOSED,vqa,Position,"['vhead', '_', '_']",10786
+569,xmlab569/source.jpg,What is the leftmost organ in this image?,Liver,en,Abdomen,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10787
+569,xmlab569/source.jpg,Does the lung exist in this picture?,No,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10788
+569,xmlab569/source.jpg,Does the picture contain spinal cord?,Yes,en,Abdomen,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10789
+569,xmlab569/source.jpg,"Which is smaller in this image,spleen or right kidney?",Right Kidney,en,Abdomen,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10790
+569,xmlab569/source.jpg,How many kidneys does the image have?,2,en,Abdomen,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10791
+569,xmlab569/source.jpg,What is the function of the rightmost organ in this picture?,Improve the body's immunity,en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'function', 'ktail']",10792
+569,xmlab569/source.jpg,Which organs/organ in the picture belong to the urinary system?,Kidney,en,Abdomen,CT,OPEN,kvqa,KG,"['vhead', 'belong to', 'urinary system']",10793
+569,xmlab569/source.jpg,Does the picture contain the organ which has the effect of detoxicating?,Yes,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'effect', 'detoxicate']",10794
+569,xmlab569/source.jpg,Does the picture contain the organ which has the effect of discharging waste?,Yes,en,Abdomen,CT,CLOSED,kvqa,KG,"['vhead', 'effect', 'discharge waste']",10795
+587,xmlab587/source.jpg,Is this image taken via X-Ray?,No,en,Chest_mediastinal,CT,CLOSED,vqa,Modality,"['vhead', '_', '_']",10796
+587,xmlab587/source.jpg,What is the scanning plane of this image?,Transverse Plane,en,Chest_mediastinal,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10797
+587,xmlab587/source.jpg,What is the organ system visualized?,Chest,en,Chest_mediastinal,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10798
+587,xmlab587/source.jpg,Does the trachea exist in this picture?,No,en,Chest_mediastinal,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10799
+587,xmlab587/source.jpg,Are/Is there kidneys in the picture?,No,en,Chest_mediastinal,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10800
+587,xmlab587/source.jpg,"Which is bigger in this image, heart or right lung?",Right lung,en,Chest_mediastinal,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10801
+587,xmlab587/source.jpg,How many lungs are shown in this image?,2,en,Chest_mediastinal,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10802
+587,xmlab587/source.jpg,What is the effect of the black organ on the left of this picture?,Breathe,en,Chest_mediastinal,CT,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10803
+587,xmlab587/source.jpg,Does the picture contain the tissue that is related with remembering things?,No,en,Chest_mediastinal,CT,CLOSED,kvqa,KG,"['vhead', 'could', 'remember things']",10804
+587,xmlab587/source.jpg,Does the picture contain the organ that could receive sound?,No,en,Chest_mediastinal,CT,CLOSED,kvqa,KG,"['vhead', 'could', 'receive sound']",10805
+592,xmlab592/source.jpg,Is this sagittal plane?,No,en,Chest_lung,CT,CLOSED,vqa,Plane,"['vhead', '_', '_']",10806
+592,xmlab592/source.jpg,Is there an esophagus in this image?,No,en,Chest_lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10807
+592,xmlab592/source.jpg,Does the picture contain mandible?,No,en,Chest_lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10808
+592,xmlab592/source.jpg,What is the function of the organ on the top of this image?,Promote Blood Flow,en,Chest_lung,CT,OPEN,kvqa,KG,"['vhead', 'function', 'ktail']",10809
+592,xmlab592/source.jpg,Do any of the organs in the picture belong to the respiratory system?,Yes,en,Chest_lung,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'respiratory system']",10810
+592,xmlab592/source.jpg,Does the picture contain the organ which has the effect of digesting food?,No,en,Chest_lung,CT,CLOSED,kvqa,KG,"['vhead', 'effect', 'digest food']",10811
+597,xmlab597/source.jpg,Is this an MRI scan?,No,en,Chest_lung,CT,CLOSED,vqa,Modality,"['vhead', '_', '_']",10812
+597,xmlab597/source.jpg,Which part of the body does this image belong to?,Chest,en,Chest_lung,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10813
+597,xmlab597/source.jpg,Is there an esophagus in this image?,Yes,en,Chest_lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10814
+597,xmlab597/source.jpg,What is the function of the rightmost organ in this picture?,Breathe,en,Chest_lung,CT,OPEN,kvqa,KG,"['vhead', 'function', 'ktail']",10815
+597,xmlab597/source.jpg,Which organs/organ is part of the circulatory system in this image?,Heart,en,Chest_lung,CT,OPEN,kvqa,KG,"['vhead', 'part of', 'circulatory system']",10816
+597,xmlab597/source.jpg,Does the picture contain the organ that could be used for digesting food?,No,en,Chest_lung,CT,CLOSED,kvqa,KG,"['vhead', 'be used for', 'digest food']",10817
+597,xmlab597/source.jpg,Do any of the organs in the picture belong to the circulatory system?,Yes,en,Chest_lung,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'circulatory system']",10818
+609,xmlab609/source.jpg,Where does the picture show?,Pelvic Cavity,en,Pelvic Cavity,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10819
+609,xmlab609/source.jpg,What tissue is the white part on the right of the image?,Left Femoral Head,en,Pelvic Cavity,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10820
+609,xmlab609/source.jpg,Does the larynx appear in the image?,No,en,Pelvic Cavity,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10821
+609,xmlab609/source.jpg,Does the picture contain bladder?,Yes,en,Pelvic Cavity,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10822
+609,xmlab609/source.jpg,What color is the small bowel in the picture?,Gray,en,Pelvic Cavity,CT,OPEN,vqa,Color,"['vhead', '_', '_']",10823
+609,xmlab609/source.jpg,"Which is bigger in this image, rectum or small bowel?",Small Bowel,en,Pelvic Cavity,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10824
+609,xmlab609/source.jpg,How many femoral heads are shown in this image?,2,en,Pelvic Cavity,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10825
+609,xmlab609/source.jpg,What is the function of the organ on the bottom of this picture?,"Store feces, excrete feces",en,Pelvic Cavity,CT,OPEN,kvqa,KG,"['vhead', 'function', 'ktail']",10826
+609,xmlab609/source.jpg,Which organs/organ is part of the urinary system in this image?,Bladder,en,Pelvic Cavity,CT,OPEN,kvqa,KG,"['vhead', 'part of', 'urinary system']",10827
+61,xmlab61/source.jpg,What modality is used to take this image?,MRI,en,Brain,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10828
+61,xmlab61/source.jpg,Which part of the body does this image belong to?,Brain,en,Brain,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10829
+61,xmlab61/source.jpg,What is the mr weighting in this image?,T2,en,Brain,MRI,OPEN,vqa,Modality,"['vhead', '_', '_']",10830
+61,xmlab61/source.jpg,What is the main organ in the image?,Brain,en,Brain,MRI,OPEN,vqa,Organ,"['vhead', '_', '_']",10831
+61,xmlab61/source.jpg,What is the largest organ in the picture?,Brain,en,Brain,MRI,OPEN,vqa,Size,"['vhead', '_', '_']",10832
+61,xmlab61/source.jpg,Does the picture contain brian?,Yes,en,Brain,MRI,CLOSED,vqa,Organ,"['vhead', '_', '_']",10833
+61,xmlab61/source.jpg,What diseases are included in the picture?,Brain Edema,en,Brain,MRI,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10834
+61,xmlab61/source.jpg,Is the brain healthy?,No,en,Brain,MRI,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10835
+61,xmlab61/source.jpg,Where is/are the abnormality located?,Upper,en,Brain,MRI,OPEN,vqa,Position,"['vhead', '_', '_']",10836
+613,xmlab613/source.jpg,Do the organs in the image exist in the pelvic cavity?,Yes,en,Pelvic Cavity,CT,CLOSED,vqa,Position,"['vhead', '_', '_']",10837
+613,xmlab613/source.jpg,Is this a study of the pelvic cavity?,Yes,en,Pelvic Cavity,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10838
+613,xmlab613/source.jpg,Are/Is there kidneys in the picture?,No,en,Pelvic Cavity,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10839
+613,xmlab613/source.jpg,Is there femoral head in this picture?,Yes,en,Pelvic Cavity,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10840
+613,xmlab613/source.jpg,"Which is the biggest in this image, bladder, small bowel or rectum?",Bladder,en,Pelvic Cavity,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10841
+613,xmlab613/source.jpg,How many femoral heads are shown in this image?,2,en,Pelvic Cavity,CT,OPEN,vqa,Quantity,"['vhead', '_', '_']",10842
+613,xmlab613/source.jpg,How much damage will be caused to the body taking such an image?,Much,en,Pelvic Cavity,CT,OPEN,kvqa,KG,"['vhead', 'damage', 'ktail']",10843
+613,xmlab613/source.jpg,Which organs/organ in the picture belong to the urinary system?,Bladder,en,Pelvic Cavity,CT,OPEN,kvqa,KG,"['vhead', 'belong to', 'urinary system']",10844
+613,xmlab613/source.jpg,Does the picture contain the organ which has the effect of digesting food?,Yes,en,Pelvic Cavity,CT,CLOSED,kvqa,KG,"['vhead', 'effect', 'digest food']",10845
+613,xmlab613/source.jpg,Does the picture contain the organ that could receive sound?,No,en,Pelvic Cavity,CT,CLOSED,kvqa,KG,"['vhead', 'could', 'receive sound']",10846
+624,xmlab624/source.jpg,What scanning plane does this image belong to?,Transverse Plane,en,Pelvic Cavity,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10847
+624,xmlab624/source.jpg,Which part do the organs in this image locate from the aspect of the whole body?,Pelvic Cavity,en,Pelvic Cavity,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10848
+624,xmlab624/source.jpg,What organ is the gray part on the center of the image?,Small Bowel,en,Pelvic Cavity,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10849
+624,xmlab624/source.jpg,Does the bladder appear in this image?,No,en,Pelvic Cavity,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10850
+624,xmlab624/source.jpg,Does the colon appear in the image?,Yes,en,Pelvic Cavity,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10851
+624,xmlab624/source.jpg,"Which is smaller in this image, colon or small bowel?",Colon,en,Pelvic Cavity,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10852
+624,xmlab624/source.jpg,What is the function of the organ on the center of this picture?,"Absorb nutrients, secrete enzymes, digest food",en,Pelvic Cavity,CT,OPEN,kvqa,KG,"['vhead', 'function', 'ktail']",10853
+624,xmlab624/source.jpg,Does the picture contain the organ which has the effect of storing urine?,No,en,Pelvic Cavity,CT,CLOSED,kvqa,KG,"['vhead', 'effect', 'store urine']",10854
+625,xmlab625/source.jpg,Do the organs in the image exist in the head?,No,en,Pelvic Cavity,CT,CLOSED,vqa,Position,"['vhead', '_', '_']",10855
+625,xmlab625/source.jpg,Is this a study of the abdomen?,No,en,Pelvic Cavity,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10856
+625,xmlab625/source.jpg,Is there small bowel in this image?,Yes,en,Pelvic Cavity,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10857
+625,xmlab625/source.jpg,What color is the small bowel in the picture?,Gray,en,Pelvic Cavity,CT,OPEN,vqa,Color,"['vhead', '_', '_']",10858
+625,xmlab625/source.jpg,What is the effect of the gray organ on the center of this picture?,"Absorb nutrients, secrete enzymes, digest food",en,Pelvic Cavity,CT,OPEN,kvqa,KG,"['vhead', 'effect', 'ktail']",10859
+625,xmlab625/source.jpg,Do any of the organs in the picture belong to the urinary system?,No,en,Pelvic Cavity,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'urinary system']",10860
+636,xmlab636/source.jpg,What scanning plane does this image belong to?,Transverse Plane,en,Pelvic Cavity,CT,OPEN,vqa,Plane,"['vhead', '_', '_']",10861
+636,xmlab636/source.jpg,Do the organs in the image exist in the pelvic cavity?,Yes,en,Pelvic Cavity,CT,CLOSED,vqa,Position,"['vhead', '_', '_']",10862
+636,xmlab636/source.jpg,Does the picture contain spinal cord?,Yes,en,Pelvic Cavity,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10863
+636,xmlab636/source.jpg,Do any of the organs in the picture belong to the digestive system?,Yes,en,Pelvic Cavity,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'digestive system']",10864
+639,xmlab639/source.jpg,Do the organs in the image exist in the chest?,No,en,Pelvic Cavity,CT,CLOSED,vqa,Position,"['vhead', '_', '_']",10865
+639,xmlab639/source.jpg,Is this a study of the pelvic cavity?,Yes,en,Pelvic Cavity,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10866
+639,xmlab639/source.jpg,What is the largest organ in the picture?,Colon,en,Pelvic Cavity,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10867
+639,xmlab639/source.jpg,Do any of the organs in the picture belong to the digestive system?,Yes,en,Pelvic Cavity,CT,CLOSED,kvqa,KG,"['vhead', 'belong to', 'digestive system']",10868
+639,xmlab639/source.jpg,Does the picture contain the organ that could be used for digesting food?,Yes,en,Pelvic Cavity,CT,CLOSED,kvqa,KG,"['vhead', 'be used for', 'digest food']",10869
+84,xmlab84/source.jpg,What modality is used to take this image?,CT,en,Lung,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10870
+84,xmlab84/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10871
+84,xmlab84/source.jpg,What is the main organ in the image?,"Lung, Liver, Heart",en,Lung,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10872
+84,xmlab84/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10873
+84,xmlab84/source.jpg,Does the picture contain liver?,Yes,en,Lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10874
+84,xmlab84/source.jpg,Does the picture contain lung?,Yes,en,Lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10875
+84,xmlab84/source.jpg,Does the picture contain heart?,Yes,en,Lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10876
+84,xmlab84/source.jpg,Is the lung healthy?,Yes,en,Lung,CT,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10877
+84,xmlab84/source.jpg,"Which is the biggest in this image,lung,liver or heart?",Lung,en,Lung,CT,CLOSED,vqa,Size,"['vhead', '_', '_']",10878
+92,xmlab92/source.jpg,What modality is used to take this image?,CT,en,Lung,CT,OPEN,vqa,Modality,"['vhead', '_', '_']",10879
+92,xmlab92/source.jpg,Which part of the body does this image belong to?,Chest,en,Lung,CT,OPEN,vqa,Position,"['vhead', '_', '_']",10880
+92,xmlab92/source.jpg,What is the main organ in the image?,Lung,en,Lung,CT,OPEN,vqa,Organ,"['vhead', '_', '_']",10881
+92,xmlab92/source.jpg,What is the largest organ in the picture?,Lung,en,Lung,CT,OPEN,vqa,Size,"['vhead', '_', '_']",10882
+92,xmlab92/source.jpg,Does the picture contain liver?,No,en,Lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10883
+92,xmlab92/source.jpg,Does the picture contain lung?,Yes,en,Lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10884
+92,xmlab92/source.jpg,Does the picture contain heart?,No,en,Lung,CT,CLOSED,vqa,Organ,"['vhead', '_', '_']",10885
+92,xmlab92/source.jpg,What diseases are included in the picture?,Unknown,en,Lung,CT,OPEN,vqa,Abnormality,"['vhead', '_', '_']",10886
+92,xmlab92/source.jpg,Is the lung healthy?,Yes,en,Lung,CT,CLOSED,vqa,Abnormality,"['vhead', '_', '_']",10887
